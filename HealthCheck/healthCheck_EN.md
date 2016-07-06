@@ -68,3 +68,17 @@ Squad is Spotify’s term for a small, cross-functional, self-organizing develop
 * We get stuff done really quickly! No waiting and no delays.
 * We never seem to get anything done. We keep getting stuck or interrupted. Stories keep getting stuck on dependencies.
 
+# Third slide
+
+## Suitable Process
+* Our way of working fits us perfectly!
+* Our way of working sucks!
+
+## Support
+* We always get great support and help when we ask for it!
+* We keep getting stuck because we can't get the support and help that we ask for.
+
+## Teamwork
+* We are a totally gelled super-team with awesome collaboration!
+* We are a bunch of individuals that neither know nor care about what the other people in the squad are doing.
+

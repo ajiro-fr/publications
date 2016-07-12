@@ -15,7 +15,7 @@ version 1, September 2014
 * Les personnes apportant leur support à l'équipe (managers, coachs, etc.)
 
 ### Comment utiliser ce modèle
-* Imrpimez et plastifiez les cartes
+* Imprimez et plastifiez les cartes
   * Slide 2-5 = Cartes "Terrifiantes@@@" (double face)
   * Slide 6-9 = Cartes de vote (double face)
 * Rassembler tous les membres de l'équipe dans la même salle
@@ -59,26 +59,25 @@ Le terme "squad"  (retraduit ici par "équipe") est le mot utilisé par Spotify 
 ## Mission
 * Nous savons exactement pourquoi nons somme là, et nous sommes passionnés en connaissance de cause.
 * Nous ne savons pas pouquoi nous sommes là, il n'y a pas de schéma global ou d'orientation globale. Nos "missions" sont totalement floues et démotivantes.
-*   @@@@@@
 
-## Pawns or Players
-* We are in control of our own destiny! We decide what to build and how to build it.
-* We are just pawns in a game of chess with no influence over what we build or how we build it.
+## Les acteurs... ou les pions...
+* Nous contrôlons notre destin. Nous décidons ce que nous développons et comment nous le développons.
+* Nous ne sommes que des pions sur un échiquier, et nous n'avons aucune influence sur ce que nous construisons et comment nous le développons.
 
-## Speed
-* We get stuff done really quickly! No waiting and no delays.
-* We never seem to get anything done. We keep getting stuck or interrupted. Stories keep getting stuck on dependencies.
+## Vélocité
+* Nous faisons immédiatement ce que nous avons décidé. Pas d'attente, pas de délai.
+* Nous ne finissons jamais rien. Nous sommes systématiquement bloqués et interrompus. En particuliern les user stories sont bloqués par les dépendances critiques d'autres produits.
 
-# Third slide
+# Troisième slide
 
-## Suitable Process
-* Our way of working fits us perfectly!
-* Our way of working sucks!
+## Processus adapté
+* Notre façon de travailler nous correspond tout à fait!
+* Notre façon de travailler est ridicule.
 
 ## Support
-* We always get great support and help when we ask for it!
-* We keep getting stuck because we can't get the support and help that we ask for.
+* Nous obentons toujours du support et de l'aide de nos sponsors dès que nous le demandons.
+* Nous sommes régulièrement bloqués car nous ne pouvons obtenir du soutien et de l'aide de la part de nos sponsor quand nous le demandons.
 
-## Teamwork
-* We are a totally gelled super-team with awesome collaboration!
-* We are a bunch of individuals that neither know nor care about what the other people in the squad are doing.
+## Travail d'équipe
+* Nous sommes un groupe qui a vraiment pris forme d'équipe, avec un niveau de collaboration extraodinaire.
+* Nous sommes une band d'individus qui ne se connaissent pas et nous ne sous soucions pas de savoir ce que les autres font.

@@ -7,77 +7,77 @@ Traduction en français
 ## Squad Health Check model
 version 1, September 2014
 
-### What is this?
-* A workshop & visualization technique for helping squads* improve
+### De quoi s'agit-il?
+* Un atelier et une technique de visualisation aidant les équipes (squads) à s'améliorer.
 
-### Who is it for?
-* The squad itself
-* People supporting the squad (managers, coaches, etc)
+### Audience
+* L'équipe elle-même
+* Les personnes apportant leur support à l'équipe (managers, coachs, etc.)
 
-### How to use the model
-* Print the cards & laminate
-  * Slide 2-5 = Awesome Cards (double sided)
-  * Slide 6-9 = Voting cards (double sided)
-* Get the squad together in a room
-* Discuss the Awesome Cards. Each one is a health indicator with an “example of awesome”, and an “example of crappy”.
-* Ask the squad how they feel about each health indicator, using techniques such as voting cards.
-  * Green doesn’t mean Perfect. It just means the squad is happy with this, and see no major need for improvement right now.
-  * Yellow means there are some important problems that need addressing, but it’s not a disaster.
-  * Red means this really sucks and needs to be improved.
-* Also discuss the trends (are things improving, stable, or getting worse?)
-* Visualize the result, for example like this:
-* Use the data to help the squad(s) improve
+### Comment utiliser ce modèle
+* Imprimez et plastifiez les cartes
+  * Slide 2-5 = Cartes "Terrifiantes@@@" (double face)
+  * Slide 6-9 = Cartes de vote (double face)
+* Rassembler tous les membres de l'équipe dans la même salle
+* Discuter les cartes "terrifiantes". Chacune d'entre elle est un indicateur de bonne santé, accompagné d'un exemple de très bonne performance et d'un exemple particulièrement inefficace.
+* tilisant une méthode favorisant les décisions de groupe (par exemple: avec les cartes de vote).
+  * Un indicateur "Vert" ne signifie pas un état parfaitement idéal, mais que l'équipe est satisfaite sur cet indicateur et ne voit pas d'amélioration significative à mettre en oeuvre dans l'immédiat.
+  * Un indicateuer "jaune" signifie qu'il y a des problèmes importants qui nécessitent l'attention, mais ils ne constituent pas une situation irrécupérable.
+  * Un indicateur "rouge" signifie que la situation est critique, et nécessite une amélioration immédiate.
+* Faire aussi discuter sur les tendances d'évolution de ces indicateurs (la situation s'améliore-t-elle? Est-elle stable ou se dégrade-t-elle?)
+* Matéraliser visuellement les résultats de ces discussions.
+* Faire utiliser des données quantitatives (estimation, mesures, extrapolation...) pour aider l'équipe à s'améliorer.
+* 
+* ## Idées de mises en oeuvre
+* Les cartes sont uniquement un point de départ pour initialiser des converstations productives. L'équipe doit se sentire libre d'ajouter/ôtre/modifier toute question afin de correspondre à ce qu'elle considère comme important pour elle.
+* S'assurer que cet outil est utilisé en support de l'équipe dans son amélioration et surtout pas pour l'évaluers.
 
-### Tips
-* These cards are just a starting point. Squad is free to add/remove/tweak the questions to match what they think matters.
-* Make sure this is used to support the squads, not judge them!
+Le terme "squad"  (retraduit ici par "équipe") est le mot utilisé par Spotify pour une équipe de développement petite, cross-fonctionnelle et auto-organisée.
 
-Squad is Spotify’s term for a small, cross-functional, self-organizing development team
+# Deuxième Slide
 
-# Second slide
+## Livraison de valeur
+* Nous livrons des produits extraordinaires@@! Nous en sommes fier et nos clients en sont particulièrement contents.
+* ce que nous livrons est nul. Nous en avons honte. Nos clients nous détestent.
 
-## Delivering Value
-* We deliver great stuff! We're proud of it and our stakeholders are really happy.
-* We deliver crap. We feel ashamed to deliver it. Our stakeholders hate us.
-
-## Easy to release
-* Releasing is simple, safe, painless and mostly automated.
-* Releasing is risky, painful, lots of manual work and takes forever.
+## facilité de livraison
+* Le processus de livraison est simpls, sûrs, indolore et quasiement totalement automatisés.
+* Le processus de livraison est risqué, douloureux, nécessitent beaucoup d'interventions manuelles, qui prennent énorméménet de temps.
 
 ## Fun
-* We love going to work and have great fun working together!
-* Boooooooring...
+* Nous aimons aller travailler le matin, et avons beaucoup de fun à travailler ensemble.
+* Ennui....
 
-## Health of Codebase
-* We're proud of the quality of our code! It is clean, easy to read and has great test coverage.
-* Our code is a pile of dung and technical debt is raging out of control.
+## Bonne santé de la base de code
+* Nous sommes fiers de la qualité de notre code. Il est propre, facile à lireet a une grande couverture de tests.
+* Notre code est un tas de fumier et notre dette technique croît de façon incontrôlable.
 
-## Learning
-* We're learning lots of interesting stuff all the time!
-* We never have time to learn anything.
+## Apprentissage
+* Nous apprenons à chaque instant quelque chose d'intéressant.
+* Nous n'avons jamais le temps d'apprendre quoi que ce soit.
 
 ## Mission
-* We know exactly why we are here and we’re really excited about it!
-* We have no idea why we are here, there's no high lever picture or focus. Our so called mission is completely unclear and uninspiring.
+* Nous savons exactement pourquoi nons somme là, et nous sommes passionnés en connaissance de cause.
+* Nous ne savons pas pouquoi nous sommes là, il n'y a pas de schéma global ou d'orientation globale. Nos "missions" sont totalement floues et démotivantes.
 
-## Pawns or Players
-* We are in control of our own destiny! We decide what to build and how to build it.
-* We are just pawns in a game of chess with no influence over what we build or how we build it.
+## Les acteurs... ou les pions...
+* Nous contrôlons notre destin. Nous décidons ce que nous développons et comment nous le développons.
+* Nous ne sommes que des pions sur un échiquier, et nous n'avons aucune influence sur ce que nous construisons et comment nous le développons.
 
-## Speed
-* We get stuff done really quickly! No waiting and no delays.
-* We never seem to get anything done. We keep getting stuck or interrupted. Stories keep getting stuck on dependencies.
+## Vélocité
+* Nous faisons immédiatement ce que nous avons décidé. Pas d'attente, pas de délai.
+* Nous ne finissons jamais rien. Nous sommes systématiquement bloqués et interrompus. En particuliern les user stories sont bloqués par les dépendances critiques d'autres produits.
 
-# Third slide
+# Troisième slide
 
-## Suitable Process
-* Our way of working fits us perfectly!
-* Our way of working sucks!
+## Processus adapté
+* Notre façon de travailler nous correspond tout à fait!
+* Notre façon de travailler est ridicule.
 
 ## Support
-* We always get great support and help when we ask for it!
-* We keep getting stuck because we can't get the support and help that we ask for.
+* Nous obentons toujours du support et de l'aide de nos sponsors dès que nous le demandons.
+* Nous sommes régulièrement bloqués car nous ne pouvons obtenir du soutien et de l'aide de la part de nos sponsor quand nous le demandons.
 
-## Teamwork
-* We are a totally gelled super-team with awesome collaboration!
-* We are a bunch of individuals that neither know nor care about what the other people in the squad are doing.
+## Travail d'équipe
+* Nous sommes un groupe qui a vraiment pris forme d'équipe, avec un niveau de collaboration extraodinaire.
+* Nous sommes une band d'individus qui ne se connaissent pas et nous ne sous soucions pas de savoir ce que les autres font.

@@ -1,0 +1,145 @@
+
+\documentclass[a4paper]{article}
+%\usepackage[utf8]{inputenc}
+%\usepackage[T1]{fontenc}
+%\usepackage{graphics}
+%\usepackage{libertine}
+\usepackage[french]{babel}
+%\usepackage{tabularx}
+\usepackage{geometry}
+%\usepackage{xcolor}
+%\usepackage{mathtools}
+
+\usepackage{tikz}
+\usepackage{pifont}
+\usepackage{graphicx}
+
+\newlength\cardheight
+\newlength\cardwidth
+\setlength\cardheight{87mm}
+\setlength\cardwidth{56mm}
+
+\newlength\cardhspace
+\newlength\cardvspace
+\setlength\cardhspace{56.5mm}
+
+\def\tabularxcolumn#1{m{#1}}
+\pgfmathsetmacro{\cardroundingradius}{4mm}
+\pgfmathsetmacro{\striproundingradius}{3mm}
+
+
+\begin{document}
+
+\newgeometry{margin=10mm}
+\thispagestyle{empty}
+
+\newcommand{\stripcolor}{cyan}
+\pgfmathsetmacro{\stripwidth}{1.2}
+\pgfmathsetmacro{\strippadding}{0.1}
+
+\pgfmathsetmacro{\textpadding}{0.3}
+
+\newcommand{\topcaption}{Feu vert}
+\newcommand{\bottomcaption}{Feu rouge}
+\pgfmathsetmacro{\ruleheight}{0.1}
+
+\newcommand{\stripfontsize}{\Huge}
+\newcommand{\captionfontsize}{\LARGE}
+\newcommand{\textfontsize}{\normalsize }
+
+\clearpage
+
+\pgfmathsetmacro{\cardwidth}{5}
+\pgfmathsetmacro{\cardheight}{8}
+
+
+
+
+
+\newcommand{\gamecard}[3]{%
+ \begin{tikzpicture}
+     \draw[rounded corners=\cardroundingradius] (0,0) rectangle (\cardwidth,\cardheight);
+     \fill[\stripcolor,rounded corners=\striproundingradius] (\strippadding,\strippadding) rectangle (\strippadding+\stripwidth,\cardheight-\strippadding) node[rotate=90,above left,black,font=\stripfontsize] {#1};
+     \node[text width=(\cardwidth-\strippadding-\stripwidth-2*\textpadding)*1cm,below right,inner sep=0] at (\strippadding+\stripwidth+\textpadding,\cardheight-\textpadding) 
+     {   {\captionfontsize \topcaption}\\ 
+         {\textfontsize \textit{#2}}\\
+         \tikz{\fill (0,0) rectangle (\cardwidth-\strippadding-\stripwidth-2*\textpadding,\ruleheight);}\\
+         {\captionfontsize \bottomcaption}\\ 
+         {\textfontsize \textit{#3}}\\
+     };
+ \end{tikzpicture}
+ 
+
+}
+
+\clearpage
+
+
+%
+\gamecard{Livraison de valeur}
+  {Nous livrons des produits extraordinaires! Nous en sommes fiers et nos clients en sont particulièrement contents.}
+  {Ce que nous livrons est nul. Nous en avons honte. Nos clients nous d\'etestent.}
+%
+\clearpage
+\gamecard{Facilit\'e de livraison}
+  {Le processus de livraison est simple, sûr, indolore et quasiement totalement automatis\'e.}
+  {Le processus de livraison est risqu\'e, douloureux, n\'ecessite beaucoup d'interventions manuelles, qui prennent \'enorm\'em\'enet de temps.}
+%
+\clearpage
+\gamecard{Fun}
+  {Nous aimons aller travailler le matin, et avons beaucoup de fun à travailler ensemble.}
+  {Ennui\ldots{}.}
+%
+\clearpage
+
+\gamecard{Bonne sant\'e du code}
+  {Nous sommes fiers de la qualit\'e de notre code. Il est propre, facile à lire et a une grande couverture de tests.}
+  {Notre code est un tas de fumier et notre dette technique croît de façon incontrôlable.}
+  \clearpage
+\gamecard{Apprentissage}
+  {Nous apprenons à chaque instant quelque chose d'int\'eressant.}
+  {Nous n'avons jamais le temps d'apprendre quoi que ce soit.}
+  
+  \clearpage
+\gamecard{Mission}
+  {Nous savons exactement pourquoi nons sommes là, et nous sommes passionn\'es en connaissance de cause.}
+  {Nous ne savons pas pouquoi nous sommes là, il n'y a pas de sch\'ema g\'en\'eral  ou d'orientation globale. Nos ``missions'' sont totalement floues et d\'emotivantes.}
+%
+
+\clearpage
+%
+\gamecard{Acteurs\ldots{} ou pions\ldots{}}
+ {Nous contrôlons notre destin. Nous d\'ecidons ce que nous d\'eveloppons et comment nous le d\'eveloppons.}
+ {Nous ne sommes que des pions sur un \'echiquier, et nous n'avons aucune influence sur ce que nous construisons et comment nous le d\'eveloppons.}
+ 
+ 
+ \clearpage
+\gamecard{V\'elocit\'e}
+  {Nous faisons ce que nous avons d\'ecid\'e, sans délai, sans attendre Pas d'attente, pas de d\'elai.}
+  {Nous ne finissons jamais rien. Nous sommes syst\'ematiquement interrompus et bloqu\'es par les d\'ependances critiques d'autres produits.}
+  \clearpage
+\gamecard{Processus adapt\'e}
+  {Notre façon de travailler nous correspond tout à fait !}
+  {Notre façon de travailler est ridicule.}
+%
+\clearpage
+\gamecard{Support}
+  {Nous obtenons toujours du support et de l'aide de nos sponsors dès que nous le demandons.}
+  {Nous sommes r\'egulièrement bloqu\'es car nous ne pouvons obtenir du soutien et de l'aide de la part de nos sponsor quand nous le demandons.}
+%
+
+\clearpage
+
+\gamecard{Travail d'\'equipe}
+  {Nous sommes un groupe qui a vraiment pris une forme d'\'equipe, avec un niveau de collaboration extraodinaire.}
+  {Nous sommes une bande d'individus qui ne se connaissent pas et nous ne sous soucions pas de savoir ce que les autres font.}
+%
+
+
+
+\restoregeometry
+
+\end{document}
+
+
+

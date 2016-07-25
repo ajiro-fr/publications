@@ -1,14 +1,7 @@
 
 \documentclass[a4paper]{article}
-%\usepackage[utf8]{inputenc}
-%\usepackage[T1]{fontenc}
-%\usepackage{graphics}
-%\usepackage{libertine}
 \usepackage[french]{babel}
-%\usepackage{tabularx}
 \usepackage{geometry}
-%\usepackage{xcolor}
-%\usepackage{mathtools}
 
 \usepackage{tikz}
 \usepackage{pifont}
@@ -72,14 +65,45 @@
 
 }
 
+% carte initiale
+ \begin{tikzpicture}
+     \draw[rounded corners=\cardroundingradius] (0,0) rectangle (\cardwidth,\cardheight);
+        \node[text width=(\cardwidth-\strippadding-2*\textpadding)*1cm,below right,inner sep=0] at (\strippadding+\textpadding,\cardheight-\textpadding) 
+    { \centering {\Huge  {Healthcheck card deck}}
+    {\paragraph{traduction: Ajiro.fr}
+    Juillet 2016}
+    
+	{\paragraph{Credits:}   
+    Health check model: Henrik Kniberg \& Kristian Lindwall,
+    with help from the other agile coaches at Spotify
+    
+    Feel free to spread/modify/reuse this model!Creative Commons Attribution-ShareAlike 
+    }
+    
+    };
+       
+ \end{tikzpicture}
+
 \clearpage
 
+% carte Ajiro
+ \begin{tikzpicture}
+     \draw[rounded corners=\cardroundingradius] (0,0) rectangle (\cardwidth,\cardheight);
+        \node
+        [text width=(0,below right,inner sep=0] at (0.5,\cardwidth+1.5)
+    {  
+    \includegraphics[scale =0.4, angle =90 ]{logo-ajiro.jpg};};
+ \end{tikzpicture}
+
+\clearpage
 
 %
 \gamecard{Livraison de valeur}
   {Nous livrons des produits extraordinaires! Nous en sommes fiers et nos clients en sont particulièrement contents.}
   {Ce que nous livrons est nul. Nous en avons honte. Nos clients nous d\'etestent.}
 %
+
+
 \clearpage
 \gamecard{Facilit\'e de livraison}
   {Le processus de livraison est simple, sûr, indolore et quasiement totalement automatis\'e.}
@@ -94,7 +118,7 @@
 
 \gamecard{Bonne sant\'e du code}
   {Nous sommes fiers de la qualit\'e de notre code. Il est propre, facile à lire et a une grande couverture de tests.}
-  {Notre code est un tas de fumier et notre dette technique croît de façon incontrôlable.}
+  {Notre code est un tas de fumier et notre dette technique croît de fa\c{c}on incontrôlable.}
   \clearpage
 \gamecard{Apprentissage}
   {Nous apprenons à chaque instant quelque chose d'int\'eressant.}
@@ -119,8 +143,8 @@
   {Nous ne finissons jamais rien. Nous sommes syst\'ematiquement interrompus et bloqu\'es par les d\'ependances critiques d'autres produits.}
   \clearpage
 \gamecard{Processus adapt\'e}
-  {Notre façon de travailler nous correspond tout à fait !}
-  {Notre façon de travailler est ridicule.}
+  {Notre fa\c{c}on de travailler nous correspond tout à fait !}
+  {Notre fa\c{c}on de travailler est ridicule.}
 %
 \clearpage
 \gamecard{Support}

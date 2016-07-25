@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2016.7.18)  24 JUL 2016 22:29
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2016.7.18)  25 JUL 2016 13:42
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -365,26 +365,26 @@ File: upsy.fd 2001/06/04 font definitions for U/psy.
  (./cards4.aux)
 \openout1 = `cards4.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 31.
-LaTeX Font Info:    ... okay on input line 31.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 31.
-LaTeX Font Info:    ... okay on input line 31.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 31.
-LaTeX Font Info:    ... okay on input line 31.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 31.
-LaTeX Font Info:    ... okay on input line 31.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 31.
-LaTeX Font Info:    ... okay on input line 31.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 31.
-LaTeX Font Info:    ... okay on input line 31.
-LaTeX Info: Redefining \degres on input line 31.
-LaTeX Info: Redefining \dots on input line 31.
-LaTeX Info: Redefining \up on input line 31.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Info: Redefining \degres on input line 24.
+LaTeX Info: Redefining \dots on input line 24.
+LaTeX Info: Redefining \up on input line 24.
 
 
 Package frenchb.ldf Warning: OT1 encoding should not be used for French. 
 (frenchb.ldf)                Add \usepackage[T1]{fontenc} to the preamble
-(frenchb.ldf)                of your document, on input line 31.
+(frenchb.ldf)                of your document, on input line 24.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -510,33 +510,32 @@ e
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-Missing character: There is no Ã in font cmti10!
-Missing character: There is no ¨ in font cmti10!
 
 [1
 
 
 
-
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-Missing character: There is no Ã in font cmti10!
-Missing character: There is no » in font cmti10!
- [2
+<logo-ajiro.jpg, id=12, 388.652pt x 275.429pt>
+File: logo-ajiro.jpg Graphic file (type jpg)
+ <use logo-ajiro.jpg>
+Package pdftex.def Info: logo-ajiro.jpg used on input line 95.
+(pdftex.def)             Requested size: 155.45804pt x 110.16963pt.
 
-]
+Overfull \hbox (114.61414pt too wide) in paragraph at lines 94--95
+[][][][][]\OT1/cmr/m/n/10 ;  
+ []
+
+[2
+
+ <./logo-ajiro.jpg>]
 Missing character: There is no Ã in font cmti10!
-Missing character: There is no   in font cmti10!
+Missing character: There is no ¨ in font cmti10!
  [3
 
 ]
 Missing character: There is no Ã in font cmti10!
-Missing character: There is no   in font cmti10!
-Missing character: There is no Ã in font cmti10!
-Missing character: There is no ® in font cmti10!
-Missing character: There is no Ã in font cmti10!
-Missing character: There is no § in font cmti10!
-Missing character: There is no Ã in font cmti10!
-Missing character: There is no ´ in font cmti10!
+Missing character: There is no » in font cmti10!
  [4
 
 ]
@@ -548,54 +547,65 @@ Missing character: There is no   in font cmti10!
 Missing character: There is no Ã in font cmti10!
 Missing character: There is no   in font cmti10!
 Missing character: There is no Ã in font cmti10!
-Missing character: There is no   in font cmti10!
+Missing character: There is no ® in font cmti10!
+Missing character: There is no Ã in font cmti10!
+Missing character: There is no ´ in font cmti10!
  [6
 
 ]
 Missing character: There is no Ã in font cmti10!
-Missing character: There is no ´ in font cmti10!
-
-[7
+Missing character: There is no   in font cmti10!
+ [7
 
 ]
 Missing character: There is no Ã in font cmti10!
-Missing character: There is no © in font cmti10!
+Missing character: There is no   in font cmti10!
+Missing character: There is no Ã in font cmti10!
+Missing character: There is no   in font cmti10!
  [8
 
 ]
 Missing character: There is no Ã in font cmti10!
-Missing character: There is no § in font cmti10!
+Missing character: There is no ´ in font cmti10!
+ [9
+
+]
+Missing character: There is no Ã in font cmti10!
+Missing character: There is no © in font cmti10!
+ [10
+
+]
 Missing character: There is no Ã in font cmti10!
 Missing character: There is no   in font cmti10!
-Missing character: There is no Ã in font cmti10!
-Missing character: There is no § in font cmti10!
- [9
+ [11
 
 ]
 Missing character: There is no Ã in font cmti10!
 Missing character: There is no ¨ in font cmti10!
 Missing character: There is no Ã in font cmti10!
 Missing character: There is no ¨ in font cmti10!
- [10
+ [12
 
-] [11
+] [13
 
-] (./cards4.aux) ) 
+]
+(./cards4.aux) ) 
 Here is how much of TeX's memory you used:
- 11195 strings out of 493304
- 206882 string characters out of 6139871
+ 11211 strings out of 493304
+ 207115 string characters out of 6139871
  261042 words of memory out of 5000000
- 14442 multiletter control sequences out of 15000+600000
- 5274 words of font info for 19 fonts, out of 8000000 for 9000
+ 14455 multiletter control sequences out of 15000+600000
+ 5582 words of font info for 20 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
- 56i,6n,55p,415b,843s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm
-/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.
-pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on cards4.pdf (11 pages, 48437 bytes).
+ 56i,11n,55p,415b,841s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/c
+mbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.p
+fb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></us
+r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
+Output written on cards4.pdf (13 pages, 100981 bytes).
 PDF statistics:
- 55 PDF objects out of 1000 (max. 8388607)
- 38 compressed objects within 1 object stream
+ 67 PDF objects out of 1000 (max. 8388607)
+ 46 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 13 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 18 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -1,0 +1,41 @@
+- number: 1
+  title: Dire
+  description: Prendre des décision et le dire à l'équipe
+  illustration: 1.svg
+  background: "#f9d7cb"
+
+- number: 2
+  title: Vendre
+  description: Convaincre l'équipe sur la décision à prendre
+  illustration: 2.svg
+  background: "#fcf4cd"
+
+- number: 3
+  title: Consulter
+  description: Consulter l'équipe avant de prendre la décision
+  illustration: 3.svg
+  background: "#dbe9c6"
+
+- number: 4
+  title: S'entendre
+  description: Prendre la décision avec l'équipe
+  illustration: 4.svg
+  background: "#c8e7d7"
+
+- number: 5
+  title: Conseiller
+  description: Influencer, mais la décision est prise par l'équipe
+  illustration: 5.svg
+  background: "#cbdbf2"
+
+- number: 6
+  title: Enqueter
+  description: Demander des retours suite à la décision de l'équipe
+  illustration: 6.svg
+  background: "#d2cfec"
+
+- number: 7
+  title: Deleguer
+  description: Aucune influence, la décision est prise par l'équipe
+  illustration: 7.svg
+  background: "#f7d8e7"

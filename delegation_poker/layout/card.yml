@@ -1,0 +1,58 @@
+# 825 x 1125  2.5in x 3.5in  6,35cm x 8,89cm
+
+# The "cut line", without rounded corners
+cut:
+  x: 37.5
+  y: 37.5
+  width: 750
+  height: 1050
+
+# The "safe zone" as defined by TheGameCrafter poker cards
+safe:
+  x: 75
+  y: 75
+  width: 675
+  height: 975
+  radius: 16
+  dash: 3 3
+
+section:
+  x: 100
+  width: 625
+  align: center
+  valign: middle
+
+number:
+  extends: section
+  y: 100
+  height: 150
+  font: "Linux Biolinum O"
+  font_size: 150
+
+illustration:
+  extends: section
+  y: 260
+  height: 400
+
+title:
+  extends: section
+  y: 670
+  height: 75
+  font: "Linux Biolinum O"
+  font_size: 50
+
+description:
+  extends: section
+  y: 750
+  height: 250
+  font: "Linux Biolinum O; italic"
+  font_size: 30
+
+copyright:
+  x: 75
+  y: 1025
+  width: 675
+  height: 25
+  font_size: 14
+  align: center
+  valign: bottom

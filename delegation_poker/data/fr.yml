@@ -1,41 +1,41 @@
 - number: 1
   title: Dire
-  description: Prendre des décision et le dire à l'équipe
+  description: Le manager décide et informe l'équipe de sa décision.
   illustration: 1.svg
   background: "#f9d7cb"
 
 - number: 2
   title: Vendre
-  description: Convaincre l'équipe sur la décision à prendre
+  description: Le manager décide puis essaye de convaincre l'équipe que c'est la bonne décision. Mais il garde la décision.
   illustration: 2.svg
   background: "#fcf4cd"
 
 - number: 3
   title: Consulter
-  description: Consulter l'équipe avant de prendre la décision
+  description: Le manager consulte l'équipe avant de prendre sa décision.
   illustration: 3.svg
   background: "#dbe9c6"
 
 - number: 4
   title: S'entendre
-  description: Prendre la décision avec l'équipe
+  description: Manager et équipe discutent et prennent la décision en commun.
   illustration: 4.svg
   background: "#c8e7d7"
 
 - number: 5
   title: Conseiller
-  description: Influencer, mais la décision est prise par l'équipe
+  description: L'équipe consulte le manager, puis prend sa décision, même si elle va à l'encontre de l'avis du manager.
   illustration: 5.svg
   background: "#cbdbf2"
 
 - number: 6
   title: Enqueter
-  description: Demander des retours suite à la décision de l'équipe
+  description: L'équipe est autonome dans la prise de décision. Elle en informe le manager a posteriori.
   illustration: 6.svg
   background: "#d2cfec"
 
 - number: 7
   title: Deleguer
-  description: Aucune influence, la décision est prise par l'équipe
+  description: L'équipe est autonome dans la prise de décision. Le manager n'a pas besoin d'en être informé.
   illustration: 7.svg
   background: "#f7d8e7"

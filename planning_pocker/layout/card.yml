@@ -16,11 +16,28 @@ safe:
   radius: 16
   dash: 3 3
 
+outer:
+  x: 75
+  y: 75
+  width: 675
+  height: 975
+  radius: 16
+  fill_color: "#3D7890"
+
+inner:
+  x: 125
+  y: 125
+  width: 575
+  height: 875
+  radius: 16
+  fill_color: "white"
+
+
 topleft_circle:
   x: 150
   y: 150
   radius: 50
-  fill_color: "#00000010"
+  fill_color: "#CD3349"
   stroke_width: 0
 
 topleft_value:
@@ -39,6 +56,10 @@ center_value:
   height: 400
   align: center
   valign: middle
+  font: "Linux Biolinum O"
+  font_size: 200
+  color: "#CD3349"
+
 
 highlight:
   x: 75
@@ -46,7 +67,7 @@ highlight:
   width: 675
   height: 400
   stroke_width: 0
-  fill_color: "#00000010"
+  fill_color: "#CD3349"
 
 
 copyright:

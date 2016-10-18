@@ -27,19 +27,22 @@ Squib::Deck.new(cards: fr.size, layout: 'layout/biface.yml') do
   circle layout: 'topleft_circle'
   text str: fr.map {|i| i['number'] }, layout: 'topleft_value'
   text str: 'Manager', layout: 'manager_label'
-  text str: fr.map {|i| i['title'].upcase }, layout: 'manager_title'
+  text str: fr.map {|i| i['manager_title'].upcase }, layout: 'manager_title'
   svg file: "1f464.svg", layout: 'manager_icon'
-  text str: fr.map {|i| i['manager'] }, layout: 'manager_text'
+  text str: fr.map {|i| i['manager_text'] }, layout: 'manager_text'
 
   # Team
   circle layout: 'bottomright_circle'
   text str: fr.map {|i| i['number'] }, layout: 'bottomright_value'
   text str: 'Team', layout: 'team_label'
-  text str: fr.map {|i| i['title'].upcase }, layout: 'team_title'
+  text str: fr.map {|i| i['team_title'].upcase }, layout: 'team_title'
   svg file: "1f465.svg", layout: 'team_icon'
-  text str: fr.map {|i| i['team'] }, layout: 'team_text'
+  text str: fr.map {|i| i['team_text'] }, layout: 'team_text'
 
+  grid width: 25,  height: 25,  stroke_color: '#659ae9', stroke_width: 1.5
+  grid width: 100, height: 100, stroke_color: '#659ae9', stroke_width: 4
 
+  #draw_graph_paper 825, 1125
   text str: 'CC 2.0 BY SA Ajiro, http://ajiro.fr', layout: 'copyright'
   save format: :pdf, file: "delegation-poker-2-fr.pdf"
 end

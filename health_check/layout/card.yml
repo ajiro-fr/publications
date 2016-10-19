@@ -14,7 +14,9 @@ safe:
   width: 675
   height: 975
   radius: 16
-  dash: 3 3
+  stroke_color: "white"
+  fill_color: "white"
+
 
 copyright:
   x: 75

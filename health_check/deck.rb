@@ -7,7 +7,7 @@ Dir["data/*.yml"].each do |data|
   content = YAML.load_file(data)
 
   Squib::Deck.new(cards: content.size, layout: ['layout/card.yml', 'layout/questions.yml']) do
-    background color: 'white'
+    background color: 'gray'
     rect layout: 'cut'
     rect layout: 'safe'
     rect layout: 'ok_section', fill_color: '#00FF0010'
@@ -26,7 +26,7 @@ end
 
 answers = ["1f60c.svg", "1f61f.svg", "1f62b.svg"] * 12
 Squib::Deck.new(cards: answers.size, layout: ['layout/card.yml', 'layout/anwsers.yml']) do
-  background color: 'white'
+  background color: 'gray'
   rect layout: 'cut'
   rect layout: 'safe'
   svg file: answers, layout: 'picture'

@@ -39,10 +39,10 @@ Squib::Deck.new(cards: fr.size, layout: 'layout/biface.yml') do
   svg file: "1f465.svg", layout: 'team_icon'
   text str: fr.map {|i| i['team_text'] }, layout: 'team_text'
 
-  grid width: 25,  height: 25,  stroke_color: '#659ae9', stroke_width: 1.5
-  grid width: 100, height: 100, stroke_color: '#659ae9', stroke_width: 4
+  #grid width: 25,  height: 25,  stroke_color: '#659ae9', stroke_width: 1.5
+  #grid width: 100, height: 100, stroke_color: '#659ae9', stroke_width: 4
 
   #draw_graph_paper 825, 1125
   text str: 'CC 2.0 BY SA Ajiro, http://ajiro.fr', layout: 'copyright'
-  save format: :pdf, file: "delegation-poker-2-fr.pdf"
+  save format: :pdf, file: "delegation-poker-biface-fr.pdf"
 end

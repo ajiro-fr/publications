@@ -21,6 +21,7 @@ title:
   height: 100
   align: center
   valign: middle
+  font: "Linux Biolinum O; bold"
   font_size: 30
 
 section:
@@ -41,6 +42,8 @@ text:
   height: 275
   font_size: 25
   valign: middle
+  font: "Linux Biolinum O"
+  markup: true
 
 ok_section:
   extends: section

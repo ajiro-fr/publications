@@ -7,6 +7,7 @@
   manager_text: Je décide seul et j'informe mon équipe de ma décision.
   team_title: Informer
   team_text: Nous sommes informés des décisions de notre manager.
+  icon: 1f4e2.svg
 
 - number: 2
   title: Vendre
@@ -17,6 +18,7 @@
   manager_text: Je décide et j'essaye de convaincre l'équipde de ma décision.
   team_title: Vendre
   team_text: Notre manager décide, puis essaye de nous convaincre de sa décision.
+  icon: "1f4b0.svg"
 
 - number: 3
   title: Consulter
@@ -27,6 +29,7 @@
   manager_text: Je consule l'équipe avant de prendre ma décision.
   team_title: ""
   team_text: Notre manager nous consulte avant de prendre sa décision.
+  icon: "1f442-1f3fc.svg"
 
 - number: 4
   title: S'entendre
@@ -37,6 +40,7 @@
   manager_text: ""
   team_title: ""
   team_text: ""
+  icon: "1f91d-1f3fc.svg"
 
 - number: 5
   title: Conseiller
@@ -47,6 +51,9 @@
   manager_text: ""
   team_title: ""
   team_text: ""
+  #icon: "1f935-1f3fc.svg"
+  #icon: "1f454.svg"
+  icon: "1f393.svg"
 
 - number: 6
   title: Enqueter
@@ -57,6 +64,7 @@
   manager_text: ""
   team_title: ""
   team_text: ""
+  icon: "1f575-1f3fb.svg"
 
 - number: 7
   title: Deleguer
@@ -67,3 +75,4 @@
   manager_text: L'équipe prends la décision seule, sans m'en infromer.
   team_title: Decider
   team_text: Nous sommes autonomes dans la prise de décision, notre manager n'a pas besoin d'être informé.
+  icon: 1f5fd.svg

@@ -1,6 +1,6 @@
 - number: 1
-  title: Dire
-  description: Le manager décide et informe l'équipe de sa décision.
+  title: Annoncer
+  description: Le manager décide et annonce sa décision à l'équipe.
   illustration: 1.svg
   background: "#f9d7cb"
   manager_title: Informer
@@ -10,13 +10,13 @@
   icon: 1f4e2.svg
 
 - number: 2
-  title: Vendre
+  title: Convaincre
   description: Le manager décide puis essaye de convaincre l'équipe que c'est la bonne décision. Mais il garde la décision.
   illustration: 2.svg
   background: "#fcf4cd"
-  manager_title: Vendre
+  manager_title: Convaincre
   manager_text: Je décide et j'essaye de convaincre l'équipde de ma décision.
-  team_title: Vendre
+  team_title: Convaincre
   team_text: Notre manager décide, puis essaye de nous convaincre de sa décision.
   icon: "1f4b0.svg"
 
@@ -56,7 +56,7 @@
   icon: "1f393.svg"
 
 - number: 6
-  title: Enqueter
+  title: S'informer
   description: L'équipe est autonome dans la prise de décision. Elle en informe le manager a posteriori.
   illustration: 6.svg
   background: "#d2cfec"
@@ -64,7 +64,7 @@
   manager_text: ""
   team_title: ""
   team_text: ""
-  icon: "1f575-1f3fb.svg"
+  icon: "1f50e.svg"
 
 - number: 7
   title: Deleguer

@@ -1,0 +1,19 @@
+#!/bin/bash
+set -e
+
+WORKING_DIR=`mktemp -d`
+
+function cleanup {
+  echo "Removing $WORKING_DIR"
+  rm -rf $WORKING_DIR
+}
+trap cleanup EXIT
+
+for file in "$*"; do
+  echo $file
+done
+
+function add_verso(file) {
+  PAGES=`pdfinfo #{source} | awk '/Pages:/ {print $2}'`
+  #statements
+}

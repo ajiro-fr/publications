@@ -40,8 +40,8 @@ text:
   x: 250
   width: 475
   height: 275
-  font_size: 25
   valign: middle
+  font_size: 28
   font: "Linux Biolinum O"
   markup: true
 

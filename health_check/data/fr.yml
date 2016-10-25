@@ -27,17 +27,17 @@
 - title: Mission
   icon: 1f3af.svg
   ok: Nous savons exactement pourquoi nons sommes là, et nous sommes passionnés en connaissance de cause.
-  ko: Nous ne savons pas pouquoi nous sommes là, il n'y a pas de schéma général  ou d'orientation globale. Nos "missions" sont totalement floues et démotivantes.
+  ko: Nous ne savons pas pouquoi nous sommes là, il n'y a pas de vision. Nos "missions" sont totalement floues et démotivantes.
 
 - title: Acteurs... ou pions...
   icon: 1f3b3.svg
   ok: Nous contrôlons notre destin. Nous décidons ce que nous développons et comment nous le développons.
-  ko: Nous ne sommes que des pions sur un échiquier, et nous n'avons aucune influence sur ce que nous construisons et comment nous le développons.
+  ko: Nous ne sommes que des pions, et nous n'avons pas d'influence sur ce que nous construisons et comment nous le développons.
 
 - title: Vélocité
   icon: 1f3ce.svg
   ok: Nous faisons immédiatement ce que nous avons décidé. Pas d'attente, pas de délai.
-  ko: Nous ne finissons jamais rien. Nous sommes systématiquement bloqués et interrompus. En particuliern les user stories sont bloqués par les dépendances critiques d'autres produits.
+  ko: Nous ne finissons jamais rien. Nous sommes systématiquement bloqués et interrompus. Les dépendances bloquent nos user stories.
 
 - title: Processus adapté
   icon: 1f3ed.svg

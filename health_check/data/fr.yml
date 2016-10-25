@@ -1,4 +1,4 @@
-
+questions:
 - title: Livraison de valeur
   icon: 1f6cd.svg
   ok: Nous livrons des produits extraordinaires! Nous en sommes fiers et nos clients en sont particulièrement contents.
@@ -78,3 +78,13 @@
   icon:
   ok: ""
   ko: ""
+
+answers:
+- icon: 1f60c.svg
+  text: Ce n'est pas forcément parfait mais c'est satisfaisant.
+
+- icon: 1f61f.svg
+  text: Il y a des problèmes importants qui nécéssitent de l'attention.
+
+- icon: 1f62b.svg
+  text: La situation est critique et il faut agir immédiatement.

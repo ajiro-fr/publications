@@ -22,6 +22,6 @@ end
 
 task :publish => [:verso, "_publish"] do
   Dir["data/*.yml"].map { |data| File.basename(data, '.yml') }.each do |lang|
-    sh "pdftk _verso/questions-#{lang}-verso.pdf _verso/answers-verso.pdf cat output _publish/#{lang}.pdf"
+    sh "pdftk _verso/questions-#{lang}-verso.pdf _verso/answers-#{lang}-verso.pdf cat output _publish/#{lang}.pdf"
   end
 end

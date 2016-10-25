@@ -1,3 +1,4 @@
+questions:
 
 - title: Delivering Value
   icon: 1f6cd.svg
@@ -78,3 +79,14 @@
   icon:
   ok: ""
   ko: ""
+
+
+answers:
+- icon: 1f60c.svg
+  text: This is not necessarily perfect, but it is satisfactory.
+
+- icon: 1f61f.svg
+  text: Some important problems that need addressing, but it’s not a disaster.
+
+- icon: 1f62b.svg
+  text: This really sucks and needs to be improved.

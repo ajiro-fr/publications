@@ -20,7 +20,7 @@ Dir["data/*.yml"].each do |data|
     text str: content.map {|i| i['ok'] }, layout: 'ok_text'
     text str: content.map {|i| i['ko'] }, layout: 'ko_text'
     text str: 'CC 2.0 BY SA Ajiro, http://ajiro.fr', layout: 'copyright'
-    save format: :pdf, file: "questions-#{lang}.pdf"
+    save format: :pdf, file: "questions-#{lang}.pdf", width: "29.7cm", height: "21cm"
   end
 end
 
@@ -31,5 +31,5 @@ Squib::Deck.new(cards: answers.size, layout: ['layout/card.yml', 'layout/anwsers
   rect layout: 'safe'
   svg file: answers, layout: 'picture'
   text str: 'CC 2.0 BY SA Ajiro, http://ajiro.fr', layout: 'copyright'
-  save format: :pdf, file: 'answers.pdf'
+  save format: :pdf, file: 'answers.pdf', width: "29.7cm", height: "21cm"
 end

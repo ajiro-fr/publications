@@ -20,10 +20,13 @@ end
 Squib::Deck.new(cards: fr.size, layout: 'layout/card.yml') do
   background color: fr.map {|i| i['background'] }
 
-  rect layout: 'cut'
-  rect layout: 'safe'
+  #rect layout: 'cut'
+  rect layout: 'safe', fill_color: "white"
 
-  text str: fr.map {|i| i['number'] }, layout: 'number'
+  circle layout: 'topleft_circle'
+  text str: fr.map {|i| i['number'] }, layout: 'topleft_value'
+
+  #text str: fr.map {|i| i['number'] }, layout: 'number'
   text str: fr.map {|i| i['title'].upcase }, layout: 'title'
   text str: fr.map {|i| i['description'] }, layout: 'description'
   svg file: fr.map {|i| i['icon'] }, layout: 'icon'

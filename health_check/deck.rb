@@ -24,7 +24,7 @@ Dir["data/*.yml"].each do |data|
   end
 end
 
-answers = ["1f60c.svg", "1f61f.svg", "1f62b.svg"] * 2
+answers = ["1f60c.svg", "1f61f.svg", "1f62b.svg"] * 8
 Squib::Deck.new(cards: answers.size, layout: ['layout/card.yml', 'layout/anwsers.yml']) do
   background color: 'gray'
   rect layout: 'cut'

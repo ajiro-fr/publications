@@ -22,6 +22,7 @@ Dir["data/*.yml"].each do |data|
     text str: questions.map {|i| i['ko'] }, layout: 'ko_text'
     text str: 'CC 2.0 BY SA Ajiro, http://ajiro.fr', layout: 'copyright'
     save format: :pdf, file: "questions-#{lang}.pdf", width: "29.7cm", height: "21cm"
+    showcase range: 0..1, offset: 0.8, trim: 40, trim_radius: 16
   end
 
   answers = content['answers'] * 8

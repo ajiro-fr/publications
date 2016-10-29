@@ -45,7 +45,7 @@ Squib::Deck.new(cards: fr.size, layout: 'layout/biface.yml') do
   circle layout: 'topleft_circle'
   text str: fr.map {|i| i['number'] }, layout: 'topleft_value'
   text str: 'Manager', layout: 'manager_label'
-  text str: fr.map {|i| i['manager_title'].upcase }, layout: 'manager_title'
+  text str: fr.map {|i| i['manager_title'] }, layout: 'manager_title'
   svg file: "1f464.svg", layout: 'manager_icon'
   text str: fr.map {|i| i['manager_text'] }, layout: 'manager_text'
 
@@ -53,7 +53,7 @@ Squib::Deck.new(cards: fr.size, layout: 'layout/biface.yml') do
   circle layout: 'bottomright_circle'
   text str: fr.map {|i| i['number'] }, layout: 'bottomright_value'
   text str: 'Team', layout: 'team_label'
-  text str: fr.map {|i| i['team_title'].upcase }, layout: 'team_title'
+  text str: fr.map {|i| i['team_title'] }, layout: 'team_title'
   svg file: "1f465.svg", layout: 'team_icon'
   text str: fr.map {|i| i['team_text'] }, layout: 'team_text'
 

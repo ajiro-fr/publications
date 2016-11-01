@@ -1,0 +1,93 @@
+questions:
+- title: Livraison de valeur
+  icon: 1f6cd.svg
+  ok: Nous livrons des produits extraordinaires! Nous en sommes fiers et nos clients en sont particulièrement contents.
+  ko: Ce que nous livrons est nul. Nous en avons honte. Nos clients nous détestent.
+
+- title: Facilité de livraison
+  icon: 1f69a.svg
+  ok: Le processus de livraison est simple, sûr, indolore et quasiement totalement automatisé.
+  ko: Le processus de livraison est risqué, douloureux, nécessite beaucoup d'interventions manuelles, qui prennent énorméménet de temps.
+
+- title: Fun
+  icon: 1f386.svg
+  ok: Nous aimons aller travailler le matin, et avons beaucoup de fun à travailler ensemble.
+  ko: Ennui...
+
+- title: Bonne santé du code
+  icon: 2665.svg
+  ok: Nous sommes fiers de la qualité de notre code. Il est propre, facile à lire et a une grande couverture de tests.
+  ko: Notre code est un tas de fumier et notre dette technique croît de façon incontrôlable.
+
+- title: Apprentissage
+  icon: 1f393.svg
+  ok: Nous apprenons à chaque instant quelque chose d'intéressant.
+  ko: Nous n'avons jamais le temps d'apprendre quoi que ce soit.
+
+- title: Mission
+  icon: 1f3af.svg
+  ok: Nous savons exactement pourquoi nons sommes là, et nous sommes passionnés en connaissance de cause.
+  ko: Nous ne savons pas pouquoi nous sommes là, il n'y a pas de vision. Nos "missions" sont totalement floues et démotivantes.
+
+- title: Acteurs... ou pions...
+  icon: 1f3b3.svg
+  ok: Nous contrôlons notre destin. Nous décidons ce que nous développons et comment nous le développons.
+  ko: Nous ne sommes que des pions, et nous n'avons pas d'influence sur ce que nous construisons et comment nous le développons.
+
+- title: Vélocité
+  icon: 1f3ce.svg
+  ok: Nous faisons immédiatement ce que nous avons décidé. Pas d'attente, pas de délai.
+  ko: Nous ne finissons jamais rien. Nous sommes systématiquement bloqués et interrompus. Les dépendances bloquent nos user stories.
+
+- title: Processus adapté
+  icon: 1f3ed.svg
+  ok: Notre façon de travailler nous correspond tout à fait !
+  ko: Notre façon de travailler est ridicule.
+
+- title: Support
+  icon: 2049.svg
+  ok: Nous obtenons toujours du support et de l'aide de nos sponsors dès que nous le demandons.
+  ko: Nous sommes régulièrement bloqués car nous ne pouvons obtenir du soutien et de l'aide de la part de nos sponsor quand nous le demandons.
+
+- title: Travail d'équipe
+  icon: 1f465.svg
+  ok: Nous sommes un groupe qui a vraiment pris une forme d'équipe, avec un niveau de collaboration extraodinaire.
+  ko: Nous sommes une bande d'individus qui ne se connaissent pas et nous ne sous soucions pas de savoir ce que les autres font.
+
+- title: ""
+  icon:
+  ok: ""
+  ko: ""
+
+- title: ""
+  icon:
+  ok: ""
+  ko: ""
+
+- title: ""
+  icon:
+  ok: ""
+  ko: ""
+
+- title: ""
+  icon:
+  ok: ""
+  ko: ""
+
+- title: ""
+  icon:
+  ok: ""
+  ko: ""
+
+answers:
+- icon: 1f60c.svg
+  text: Ce n'est pas forcément parfait mais c'est satisfaisant.
+  border: "ok_color"
+
+- icon: 1f61f.svg
+  text: Il y a des problèmes importants qui nécéssitent de l'attention.
+  border: "warning_color"
+
+- icon: 1f62b.svg
+  text: La situation est critique et il faut agir immédiatement.
+  border: "ko_color"

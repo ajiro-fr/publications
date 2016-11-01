@@ -13,7 +13,7 @@ antialias: best
 #custom_colors:
 #  foo: '#abc'
 
-img_dir: images
+img_dir: ../common/images
 
 warn_ellipsize: true
 warn_png_scale: true

@@ -16,6 +16,14 @@ safe:
   radius: 50
   stroke_width: 0
 
+inside:
+  x: 100
+  y: 100
+  width: 625
+  height: 925
+  radius: 40
+  stroke_color: "white"
+  fill_color: "white"
 
 copyright:
   x: 75

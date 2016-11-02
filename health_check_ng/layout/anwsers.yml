@@ -1,13 +1,4 @@
 
-inside:
-  x: 100
-  y: 100
-  width: 625
-  height: 925
-  radius: 40
-  stroke_color: "white"
-  fill_color: "white"
-
 picture:
   x: 112
   y: 100

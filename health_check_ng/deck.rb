@@ -33,17 +33,18 @@ Dir["data/*.yml"].each do |data|
     svg file: questions.map {|i| i['icon'] }, layout: 'art'
 
     rect layout: 'ok_section', fill_color: 'ok_color'
-    svg file: '1f60c.svg', layout: 'ok_icon'
+    svg file: 'happy.svg', layout: 'ok_icon'
     text str: questions.map {|i| i['ok'] }, layout: 'ok_text'
 
     rect layout: 'ko_section', fill_color: 'ko_color'
-    svg file: '1f62b.svg', layout: 'ko_icon'
+    svg file: 'crying.svg', layout: 'ko_icon'
     text str: questions.map {|i| i['ko'] }, layout: 'ko_text'
 
     text str: copywright, layout: 'copyright'
 
     cutmark 40, 40, 785, 1085, 10
     save format: :pdf, file: "questions-#{lang}.pdf", width: "29.7cm", height: "21cm", trim: 40, gap: 0
+    save_sheet columns: 4, rows: 2, trim: 40, gap: 0
     showcase range: 0..1, offset: 0.8, trim: 40, trim_radius: 16
     hand range: 0..5, trim: 40, trim_radius: 16
   end

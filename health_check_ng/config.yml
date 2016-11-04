@@ -19,7 +19,16 @@ custom_colors:
   warning_color: '#ffe5c1'
   ko_color: '#f5d6db'
 
-img_dir: ../common/images
+img_dir: images
 
 warn_ellipsize: true
 warn_png_scale: true
+
+
+
+#- Bleu (1) : 3D7890
+#- Rouille (2) : C47401
+#- Rouge (3) : CD3349
+#- Violet (4) : 8F074B
+#- Vert (5) : 1E7C66
+#- Anthracite (6) : 3B3B3B

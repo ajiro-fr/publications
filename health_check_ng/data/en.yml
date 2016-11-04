@@ -1,57 +1,57 @@
 questions:
 
 - title: Delivering Value
-  icon: 1f6cd.svg
+  icon: gifts.svg
   ok: We deliver great stuff! We're proud of it and our stakeholders are really happy.
   ko: We deliver crap. We feel ashamed to deliver it. Our stakeholders hate us.
 
 - title: "Easy to release"
-  icon: 1f69a.svg
+  icon: delivery.svg
   ok: "Releasing is simple, safe, painless and mostly automated."
   ko: "Releasing is risky, painful, lots of manual work and takes forever."
 
 - title: "Fun"
-  icon: 1f386.svg
+  icon: firework.svg
   ok: "We love going to work and have great fun working together!"
   ko: "Boooooooring..."
 
 - title: "Health of Codebase"
-  icon: 2665.svg
+  icon: heart.svg
   ok: "We're proud of the quality of our code! It is clean, easy to read and has great test coverage."
   ko: "Our code is a pile of dung and technical debt is raging out of control."
 
 - title: "Learning"
-  icon: 1f393.svg
+  icon: learning.svg
   ok: "We're learning lots of interesting stuff all the time!"
   ko: "We never have time to learn anything."
 
 - title: "Mission"
-  icon: 1f3af.svg
+  icon: target.svg
   ok: "We know exactly why we are here and we’re really excited about it!"
   ko: "We have no idea why we are here, there's no high lever picture or focus. Our so called mission is completely unclear and uninspiring."
 
 - title: "Pawns or Players"
-  icon: 1f3b3.svg
+  icon: bowling.svg
   ok: "We are in control of our own destiny! We decide what to build and how to build it."
   ko: "We are just pawns in a game of chess with no influence over what we build or how we build it."
 
 - title: "Speed"
-  icon: 1f3ce.svg
+  icon: racing-car.svg
   ok: "We get stuff done really quickly! No waiting and no delays."
   ko: "We never seem to get anything done. We keep getting stuck or interrupted. Stories keep getting stuck on dependencies."
 
 - title: "Suitable Process"
-  icon: 1f3ed.svg
+  icon: factory.svg
   ok: "Our way of working fits us perfectly!"
   ko: "Our way of working sucks!"
 
 - title: "Support"
-  icon: 2049.svg
+  icon: surprise.svg
   ok: "We always get great support and help when we ask for it!"
   ko: "We keep getting stuck because we can't get the support and help that we ask for."
 
 - title: "Teamwork"
-  icon: 1f465.svg
+  icon: people.svg
   ok: "We are a totally gelled super-team with awesome collaboration!"
   ko: "We are a bunch of individuals that neither know nor care about what the other people in the squad are doing."
 
@@ -82,14 +82,14 @@ questions:
 
 
 answers:
-- icon: 1f60c.svg
+- icon: happy.svg
   text: This is not necessarily perfect, but it is satisfactory.
   border: "ok_color"
 
-- icon: 1f61f.svg
+- icon: sad.svg
   text: Some important problems that need addressing, but it’s not a disaster.
   border: "warning_color"
 
-- icon: 1f62b.svg
+- icon: crying.svg
   text: This really sucks and needs to be improved.
   border: "ko_color"

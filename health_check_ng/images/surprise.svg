@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="64"
+   height="64"
+   viewBox="0 0 64 64"
+   id="svg4199"
+   version="1.1"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="2049.svg">
+  <metadata
+     id="metadata4215">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs4213" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="3840"
+     inkscape:window-height="2031"
+     id="namedview4211"
+     showgrid="false"
+     inkscape:zoom="3.6875"
+     inkscape:cx="-65.355932"
+     inkscape:cy="32"
+     inkscape:window-x="0"
+     inkscape:window-y="55"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg4199" />
+  <g
+     fill-rule="evenodd"
+     clip-rule="evenodd"
+     fill="#FF5A79"
+     id="g4201"
+     style="fill:#c47401;fill-opacity:1">
+    <path
+       d="M6.01 42.439h9.979L20 2H2z"
+       id="path4203"
+       style="fill:#c47401;fill-opacity:1" />
+    <ellipse
+       cx="11"
+       cy="54.354"
+       rx="7.664"
+       ry="7.646"
+       id="ellipse4205"
+       style="fill:#c47401;fill-opacity:1" />
+    <path
+       d="M40.249 2.064C28.612 2.789 22.531 9.378 22 21.296h11.74c.147-4.129 2.451-7.215 6.741-7.669 4.211-.447 8.205.555 9.415 3.434 1.307 3.11-1.627 6.724-3.022 8.241-2.582 2.813-6.775 4.865-8.949 7.901-2.131 2.973-2.51 6.886-2.674 11.675h10.346c.145-3.062.349-5.995 1.742-7.898 2.266-3.092 5.65-4.541 8.486-6.983 2.709-2.334 5.559-5.147 6.043-9.5C63.319 7.466 52.683 1.289 40.249 2.064z"
+       id="path4207"
+       style="fill:#c47401;fill-opacity:1" />
+    <ellipse
+       cx="40.516"
+       cy="55.566"
+       rx="6.532"
+       ry="6.433"
+       id="ellipse4209"
+       style="fill:#c47401;fill-opacity:1" />
+  </g>
+</svg>

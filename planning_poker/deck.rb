@@ -31,7 +31,7 @@ Dir["data/*.yml"].each do |data|
   style = File.basename(data, '.yml')
   values = YAML.load_file(data)
 
-  Squib::Deck.new(cards: values.size, layout: ['layout/card.yml', 'layout/poker.yml']) do
+  Squib::Deck.new(cards: values.size, layout: 'layout/poker.yml') do
     background color: 'white'
 
     rect layout: 'safe', fill_color: values.map { |e| e["color"]}

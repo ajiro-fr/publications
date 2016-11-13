@@ -13,5 +13,22 @@ antialias: best
 #custom_colors:
 #  foo: '#abc'
 
+custom_colors:
+  lightgray: '#f2f2f2'
+  ajiro_blue: '#3D7890'
+  ajiro_red: '#CD3349'
+  small: '#c6f1e7'
+  medium: '#ffe5c1'
+  big: '#f5d6db'
+
+#- Bleu (1) :
+#- Rouille (2) : C47401
+#- Rouge (3) : CD3349
+#- Violet (4) : 8F074B
+#- Vert (5) : 1E7C66
+#- Anthracite (6) : 3B3B3B
+
+
+
 warn_ellipsize: true
 warn_png_scale: true

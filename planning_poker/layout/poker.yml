@@ -1,0 +1,19 @@
+# 825 x 1125  2.5in x 3.5in  6,35cm x 8,89cm
+
+center_value:
+  x: 212
+  y: 362
+  width: 400
+  height: 400
+  align: center
+  valign: middle
+  font: "fontawesome-webfont.tff"
+  font_size: 150
+  color: "ajiro_red"
+
+highlight:
+  x: 412
+  y: 562
+  radius: 250
+  stroke_width: 0
+  fill_color: "lightgray"

@@ -13,62 +13,17 @@ safe:
   y: 75
   width: 675
   height: 975
-  radius: 16
-  dash: 3 3
-
-outer:
-  x: 75
-  y: 75
-  width: 675
-  height: 975
-  radius: 16
-  fill_color: "#3D7890"
-
-inner:
-  x: 125
-  y: 125
-  width: 575
-  height: 875
-  radius: 16
-  fill_color: "white"
-
-
-topleft_circle:
-  x: 150
-  y: 150
   radius: 50
-  fill_color: "#CD3349"
   stroke_width: 0
 
-topleft_value:
+inside:
   x: 100
-  y: 100
-  width: 100
-  height: 100
-  font_size: 30
-  align: center
-  valign: middle
-
-center_value:
-  x: 212
-  y: 362
-  width: 400
-  height: 400
-  align: center
-  valign: middle
-  font: "Linux Biolinum O"
-  font_size: 200
-  color: "#CD3349"
-
-
-highlight:
-  x: 75
-  y: 362
-  width: 675
-  height: 400
-  stroke_width: 0
-  fill_color: "#CD3349"
-
+  y: 150
+  width: 625
+  height: 825
+  radius: 40
+  stroke_color: "white"
+  fill_color: "white"
 
 copyright:
   x: 75
@@ -78,3 +33,4 @@ copyright:
   font_size: 14
   align: center
   valign: bottom
+  font: "Linux Biolinum O"

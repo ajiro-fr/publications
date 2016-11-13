@@ -1,0 +1,11 @@
+
+- value: "S"
+  color: "small"
+- value: "M"
+  color: "medium"
+- value: "L"
+  color: "big"
+- value: "?"
+  color: "big"
+- value: "\uf0f4"
+  color: "ajiro_blue"

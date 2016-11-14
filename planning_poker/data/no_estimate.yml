@@ -1,0 +1,16 @@
+
+- value: "1"
+  comment: ""
+  color: "small"
+
+- value: "TFB"
+  comment: "too fucking big"
+  color: "big"
+
+- value: "NFC"
+  comment: "no fucking clue"
+  color: "ajiro_blue"
+
+- value: "\uf0f4"
+  comment: ""
+  color: "ajiro_blue"

@@ -40,6 +40,7 @@ Dir["data/*.yml"].each do |data|
     circle layout: 'highlight', fill_color: 'lightgray'
 
     text str: values.map { |e| e["value"]}, layout: 'center_value'
+    text str: values.map { |e| e["comment"]}, layout: 'comment'
 
     text str: copywright, layout: 'copyright'
     cutmark 40, 40, 785, 1085, 10

@@ -1,29 +1,56 @@
 
 - value: "0"
+  comment: ""
   color: "small"
+
 - value: "1/2"
+  comment: ""
   color: "small"
+
 - value: "1"
+  comment: ""
   color: "small"
+
 - value: "2"
+  comment: ""
   color: "small"
+
 - value: "3"
-  color: "small"
+  comment: ""
+  color: "medium"
+
 - value: "5"
+  comment: ""
   color: "medium"
+
 - value: "8"
+  comment: ""
   color: "medium"
+
 - value: "13"
+  comment: ""
   color: "medium"
+
 - value: "20"
+  comment: ""
   color: "big"
+
 - value: "50"
+  comment: ""
   color: "big"
+
 - value: "100"
+  comment: ""
   color: "big"
+
 - value: "∞"
+  comment: ""
   color: "big"
+
 - value: "?"
+  comment: ""
   color: "ajiro_blue"
+
 - value: "\uf0f4"
+  comment: ""
   color: "ajiro_blue"

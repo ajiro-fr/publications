@@ -25,6 +25,34 @@ inside:
   stroke_color: "white"
   fill_color: "white"
 
+center_value:
+  x: 212
+  y: 362
+  width: 400
+  height: 400
+  align: center
+  valign: middle
+  font: "fontawesome-webfont.tff"
+  font_size: 120
+  color: "ajiro_red"
+
+highlight:
+  x: 412
+  y: 562
+  radius: 250
+  stroke_width: 0
+  fill_color: "lightgray"
+
+comment:
+  x: 162
+  y: 850
+  width: 500
+  height: 100
+  align: center
+  valign: middle
+  font: "Linux Bioleum; italic"
+  font_size: 30
+
 copyright:
   x: 75
   y: 1025
@@ -34,21 +62,3 @@ copyright:
   align: center
   valign: bottom
   font: "Linux Biolinum O"
-
-center_value:
-  x: 212
-  y: 362
-  width: 400
-  height: 400
-  align: center
-  valign: middle
-  font: "fontawesome-webfont.tff"
-  font_size: 150
-  color: "ajiro_red"
-
-highlight:
-  x: 412
-  y: 562
-  radius: 250
-  stroke_width: 0
-  fill_color: "lightgray"

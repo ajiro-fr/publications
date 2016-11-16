@@ -1,66 +1,60 @@
 require 'squib'
 
-fr = YAML.load_file('data/fr.yml')
+copywright = "CC~BY-SA~3.0~FR Ajiro.fr, version: v1"
 
-Squib::Deck.new(cards: fr.size, layout: 'layout/card.yml') do
-  background color: fr.map {|i| i['background'] }
+def cutmark(top, left, right, bottom, size)
+  line x1: left, y1: top, x2: left+size, y2: top, stroke_width: 1, cap: :round
+  line x1: left, y1: top, x2: left, y2: top+size, stroke_width: 1, cap: :round
 
-  rect layout: 'cut'
-  rect layout: 'safe'
+  line x1: right, y1: top, x2: right, y2: top+size, stroke_width: 1, cap: :round
+  line x1: right, y1: top, x2: right-size, y2: top, stroke_width: 1, cap: :round
 
-  text str: fr.map {|i| i['number'] }, layout: 'number'
-  text str: fr.map {|i| i['title'].upcase }, layout: 'title'
-  text str: fr.map {|i| i['description'] }, layout: 'description'
-  svg file: fr.map {|i| i['illustration'] }, layout: 'illustration'
+  line x1: left, y1: bottom, x2: left+size, y2: bottom, stroke_width: 1, cap: :round
+  line x1: left, y1: bottom, x2: left, y2: bottom-size, stroke_width: 1, cap: :round
 
-  text str: 'CC 2.0 BY SA Ajiro, http://ajiro.fr', layout: 'copyright'
-  save format: :pdf, file: "delegation-poker-fr.pdf"
+  line x1: right, y1: bottom, x2: right-size, y2: bottom, stroke_width: 1, cap: :round
+  line x1: right, y1: bottom, x2: right, y2: bottom-size, stroke_width: 1, cap: :round
 end
 
-Squib::Deck.new(cards: fr.size, layout: 'layout/card.yml') do
-  background color: fr.map {|i| i['background'] }
 
-  #rect layout: 'cut'
-  rect layout: 'safe', fill_color: "white"
+Dir["data/*.yml"].each do |data|
+  style = File.basename(data, '.yml')
+  values = YAML.load_file(data)
 
-  circle layout: 'topleft_circle'
-  text str: fr.map {|i| i['number'] }, layout: 'topleft_value'
+  Squib::Deck.new(cards: values.size, layout: 'layout/biface.yml') do
+    background color: 'white'
 
-  #text str: fr.map {|i| i['number'] }, layout: 'number'
-  text str: fr.map {|i| i['title'].upcase }, layout: 'title'
-  text str: fr.map {|i| i['description'] }, layout: 'description'
-  svg file: fr.map {|i| i['icon'] }, layout: 'icon'
+    rect layout: 'safe', fill_color: values.map { |e| e["color"]}
+    rect layout: 'inside'
 
-  text str: 'CC 2.0 BY SA Ajiro, http://ajiro.fr', layout: 'copyright'
-  save format: :pdf, file: "delegation-poker-picture-fr.pdf"
-end
+    # Manager
+    circle layout: 'topleft_circle', fill_color: values.map { |e| e["color"]}
+    text str: values.map {|i| i['number'] }, layout: 'topleft_value'
+    text str: 'manager', layout: 'manager_label'
+    text str: values.map {|i| i['manager_title'] }, layout: 'manager_title'
+    svg file: "1f464.svg", layout: 'manager_icon', mask: values.map { |e| e["color"]}
+    text str: values.map {|i| i['manager_text'] }, layout: 'manager_text'
 
-Squib::Deck.new(cards: fr.size, layout: 'layout/biface.yml') do
-  background color: fr.map {|i| i['background'] }
+    line layout: 'middle_line', stroke_color: values.map { |e| e["color"]}
 
-  rect layout: 'cut'
-  rect layout: 'safe'
+    # Team
+    circle layout: 'bottomright_circle', fill_color: values.map { |e| e["color"]}
+    text str: values.map {|i| i['number'] }, layout: 'bottomright_value'
+    text str: 'team', layout: 'team_label'
+    text str: values.map {|i| i['team_title'] }, layout: 'team_title'
+    svg file: "1f465.svg", layout: 'team_icon', mask: values.map { |e| e["color"]}
+    text str: values.map {|i| i['team_text'] }, layout: 'team_text'
 
-  # Manager
-  circle layout: 'topleft_circle'
-  text str: fr.map {|i| i['number'] }, layout: 'topleft_value'
-  text str: 'Manager', layout: 'manager_label'
-  text str: fr.map {|i| i['manager_title'] }, layout: 'manager_title'
-  svg file: "1f464.svg", layout: 'manager_icon'
-  text str: fr.map {|i| i['manager_text'] }, layout: 'manager_text'
+    #grid width: 25,  height: 25,  stroke_color: '#659ae9', stroke_width: 1.5
+    #grid width: 100, height: 100, stroke_color: '#659ae9', stroke_width: 4
 
-  # Team
-  circle layout: 'bottomright_circle'
-  text str: fr.map {|i| i['number'] }, layout: 'bottomright_value'
-  text str: 'Team', layout: 'team_label'
-  text str: fr.map {|i| i['team_title'] }, layout: 'team_title'
-  svg file: "1f465.svg", layout: 'team_icon'
-  text str: fr.map {|i| i['team_text'] }, layout: 'team_text'
+    text str: copywright, layout: 'copyright'
 
-  #grid width: 25,  height: 25,  stroke_color: '#659ae9', stroke_width: 1.5
-  #grid width: 100, height: 100, stroke_color: '#659ae9', stroke_width: 4
+    cutmark 40, 40, 785, 1085, 10
 
-  #draw_graph_paper 825, 1125
-  text str: 'CC 2.0 BY SA Ajiro, http://ajiro.fr', layout: 'copyright'
-  save format: :pdf, file: "delegation-poker-biface-fr.pdf"
+    save format: :pdf, file: "delegation-poker-#{style}.pdf", width: "29.7cm", height: "21cm", trim: 40, gap: 0
+    save_sheet range: 0..6, columns: 4, rows: 2, trim: 40, gap: 0, prefix: "delegation-poker-#{style}-"
+    showcase range: 0..4, offset: 0.8, trim: 40, trim_radius: 16, fill_color: '#3D7890'
+    hand range: 0..6, trim: 40, trim_radius: 16, fill_color: '#3D7890'
+  end
 end

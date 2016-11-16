@@ -13,8 +13,17 @@ safe:
   y: 75
   width: 675
   height: 975
-  radius: 16
-  dash: 3 3
+  radius: 50
+  stroke_width: 0
+
+inside:
+  x: 100
+  y: 100
+  width: 625
+  height: 925
+  radius: 40
+  stroke_color: "white"
+  fill_color: "white"
 
 copyright:
   x: 75
@@ -24,17 +33,13 @@ copyright:
   font_size: 14
   align: center
   valign: bottom
+  font: "Linux Biolinum O"
 
-topleft_circle:
-  x: 150
-  y: 150
+circle:
   radius: 50
-  fill_color: "#CD3349"
   stroke_width: 0
 
-topleft_value:
-  x: 100
-  y: 100
+value:
   width: 100
   height: 100
   font: "Linux Biolinum O; bold"
@@ -42,100 +47,106 @@ topleft_value:
   align: center
   valign: middle
 
-manager_icon:
-  y: 100
-  x: 250
+icon:
   width: 100
   height: 100
+  align: center
+  valign: middle
+
+title:
+  width: 325
+  height: 100
+  align: center
+  valign: middle
+  font: "Linux Biolinum O; bold"
+  font_size: 30
+
+text:
+  width: 575
+  height: 300
+  align: center
+  valign: middle
+  font: "Linux Biolinum O"
+  font_size: 30
+
+topleft_circle:
+  extends: circle
+  x: 175
+  y: 175
+
+topleft_value:
+  extends: value
+  x: 125
+  y: 125
+
+manager_icon:
+  extends: icon
+  x: 600
+  y: 125
+
+manager_title:
+  extends: title
+  x: 250
+  y: 125
+
+manager_text:
+  extends: text
+  x: 125
+  y: 250
+
+middle_line:
+  x1: 150
+  y1: 562
+  x2: 675
+  y2: 562
+  cap: round
+  stroke_width: 10
+
+bottomright_circle:
+  extends: circle
+  x: 650
+  y: 950
+
+bottomright_value:
+  extends: value
+  x: 700
+  y: 1000
+  angle: 3.14
+
+team_icon:
+  extends: icon
+  x: 125
+  y: 900
+  flip_horizontal: true
+
+team_title:
+  extends: title
+  x: 575
+  y: 1000
+  angle: 3.14
+
+team_text:
+  extends: text
+  x: 700
+  y: 875
+  angle: 3.14
+
+
+label:
+  width: 100
+  height: 25
+  font: "Linux Biolinum O"
+  font_size: 20
   align: center
   valign: middle
 
 manager_label:
-  y: 100
-  x: 400
-  width: 325
-  height: 100
-  font_size: 50
-  align: center
-  valign: middle
-
-manager_title:
-  x: 100
-  y: 260
-  width: 625
-  height: 75
-  align: center
-  valign: middle
-  font: "Linux Biolinum O"
-  font_size: 50
-
-manager_text:
-  x: 100
-  y: 350
-  width: 625
-  height: 200
-  align: center
-  valign: middle
-  font: "Linux Biolinum O"
-  font_size: 30
-
-bottomright_circle:
-  x: 675
-  y: 975
-  radius: 50
-  fill_color: "#CD3349"
-  stroke_width: 0
-
-bottomright_value:
-  x: 725
-  y: 1025
-  width: 100
-  height: 100
-  font: "Linux Biolinum O; bold"
-  font_size: 40
-  align: center
-  valign: middle
-  angle: 3.14
-
-team_icon:
-  x: 475
-  y: 925
-  width: 100
-  height: 100
-  flip_horizontal: true
-  align: center
-  valign: middle
+  extends: label
+  x: 600
+  y: 225
 
 team_label:
-  x: 425
-  y: 1025
-  width: 325
-  height: 100
-  height: 100
-  font: "Linux Biolinum O"
-  font_size: 50
-  align: center
-  valign: middle
-  angle: 3.14
-
-team_title:
-  x: 725
-  y: 875
-  width: 625
-  height: 75
-  align: center
-  valign: middle
-  font: "Linux Biolinum O"
-  font_size: 50
-  angle: 3.14
-
-team_text:
-  y: 775
-  x: 725
-  width: 625
-  height: 200
-  align: center
-  valign: middle
-  font: "Linux Biolinum O"
-  font_size: 30
+  extends: label
+  x: 225
+  y: 900
   angle: 3.14

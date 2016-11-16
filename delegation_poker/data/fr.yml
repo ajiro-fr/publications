@@ -1,84 +1,47 @@
 - number: 1
-  title: Annoncer
-  description: Le manager décide et annonce sa décision à l'équipe.
-  illustration: 1.svg
-  background: "#f9d7cb"
-  icon: 1f4e2.svg
-
+  color: "#f6d6db"
   manager_title: "Annoncer"
   manager_text: "Je décide seul et j'annonce ma décision à l'équipe."
   team_title: "Suivre"
   team_text: "Nous sommes informés des décisions de notre manager."
 
 - number: 2
-  title: Convaincre
-  description: Le manager décide puis essaye de convaincre l'équipe que c'est la bonne décision. Mais il garde la décision.
-  illustration: 2.svg
-  background: "#fcf4cd"
-  icon: "1f4b0.svg"
-
+  color: "#ffe5c1"
   manager_title: "Convaincre"
   manager_text: "Je décide et j'essaye de convaincre l'équipde de ma décision."
   team_title: "Discuter"
   team_text: "Notre manager décide, puis essaye de nous convaincre de sa décision."
 
 - number: 3
-  title: Consulter
-  description: Le manager consulte l'équipe avant de prendre sa décision.
-  illustration: 3.svg
-  background: "#dbe9c6"
-  icon: "1f442-1f3fc.svg"
-
+  color: "#c6f1e7"
   manager_title: "Consulter"
   manager_text: "Je consule l'équipe avant de prendre ma décision."
   team_title: "Conseiller"
   team_text: "Notre manager nous consulte avant de prendre sa décision, mais c'est lui qui décide."
 
 - number: 4
-  title: S'entendre
-  description: Manager et équipe discutent et prennent la décision en commun.
-  illustration: 4.svg
-  background: "#c8e7d7"
-  icon: "1f91d-1f3fc.svg"
-
+  color: "#d4e6ed"
   manager_title: "S'entendre"
   manager_text: "Nous prenons la décision en commun avec l'équipe."
   team_title: "S'entendre"
   team_text: "Nous prenons la décision en commun avec notre manager."
 
 - number: 5
-  title: Conseiller
-  description: L'équipe consulte le manager, puis prend sa décision, même si elle va à l'encontre de l'avis du manager.
-  illustration: 5.svg
-  background: "#cbdbf2"
-  #icon: "1f935-1f3fc.svg"
-  #icon: "1f454.svg"
-  icon: "1f393.svg"
-
+  color: "#d6dce5"
   manager_title: "Conseiller"
   manager_text: "Je conseil l'équipe dans sa prise de décision, mais je la laisse décider."
   team_title: "Consulter"
   team_text: "nous consultons notre manager puis nous prenons notre décision, même si elle va à l'encontre de l'avis de notre manager."
 
 - number: 6
-  title: S'informer
-  description: L'équipe est autonome dans la prise de décision. Elle en informe le manager a posteriori.
-  illustration: 6.svg
-  background: "#d2cfec"
-  icon: "1f50e.svg"
-
+  color: "#fcbadb"
   manager_title: "Déléguer et s'informer"
   manager_text: "L'équipe prends la décision seule et m'informe de leur décision."
   team_title: "Décider et informer"
   team_text: "Nous sommes autonomes dans la prise de décision et nous informons notre manager de nos décisions."
 
 - number: 7
-  title: Deleguer
-  description: L'équipe est autonome dans la prise de décision. Le manager n'a pas besoin d'en être informé.
-  illustration: 7.svg
-  background: "#f7d8e7"
-  icon: 1f5fd.svg
-
+  color: "#d8d8d8"
   manager_title: "Déléguer"
   manager_text: "L'équipe prends la décision seule, sans m'en infromer."
   team_title: "Décider"

@@ -46,7 +46,6 @@ Dir["data/*.yml"].each do |data|
     cutmark 40, 40, 785, 1085, 10
     save format: :pdf, file: "poker-#{style}.pdf", width: "29.7cm", height: "21cm", trim: 40, gap: 0
     save_sheet range: sample(values, 7), columns: 4, rows: 2, trim: 40, gap: 0, prefix: "poker-#{style}-"
-    showcase range: sample(values, 4), offset: 0.8, trim: 40, trim_radius: 16, fill_color: '#3D7890'
-    hand range: sample(values, 10), trim: 40, trim_radius: 16, fill_color: '#3D7890'
+    hand range: sample(values, 3), trim: 40, trim_radius: 16, fill_color: '#3D7890', file: "poker-#{style}.png"
   end
 end

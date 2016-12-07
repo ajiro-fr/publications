@@ -1,19 +1,22 @@
-My Awesome Game
-===============
-
-Check out my awesome game! 
+# Delegation Poker
 
 
-Objective
----------
+## De quoi s'agit-il?
 
 
-
-Gameplay
---------
+## Audience
 
 
+## Comment utiliser ce modèle
 
-Ending the Game
----------------
 
+## Crédits
+
+- Olivier Albiez
+- Thomas Clavier
+- Irène Doan
+- Nicolas Leconte
+
+Images: http://emojione.com/
+
+Source: https://management30.com/product/delegation-poker/

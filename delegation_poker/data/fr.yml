@@ -8,16 +8,16 @@
 - number: 2
   color: "#FF7F00"
   manager_title: "Convaincre"
-  manager_text: "Je décide et j'essaye de convaincre l'équipde de ma décision."
+  manager_text: "Je décide et j'essaye de convaincre l'équipe de de ma décision."
   team_title: "Discuter"
-  team_text: "Notre manager décide, puis essaye de nous convaincre de sa décision."
+  team_text: "Notre manager décide, puis essaie de nous convaincre de sa décision."
 
 - number: 3
   color: "#FFFF00"
   manager_title: "Consulter"
-  manager_text: "Je consule l'équipe avant de prendre ma décision."
+  manager_text: "Je consulte l'équipe avant de prendre ma décision."
   team_title: "Conseiller"
-  team_text: "Notre manager nous consulte avant de prendre sa décision, mais c'est lui qui décide."
+  team_text: "Notre manager nous consulte avant de prendre sa décision."
 
 - number: 4
   color: "#00FF00"
@@ -29,20 +29,20 @@
 - number: 5
   color: "#0000FF"
   manager_title: "Conseiller"
-  manager_text: "Je conseil l'équipe dans sa prise de décision, mais je la laisse décider."
+  manager_text: "Je conseille l'équipe dans sa prise de décision et je la laisse décider."
   team_title: "Consulter"
-  team_text: "nous consultons notre manager puis nous prenons notre décision, même si elle va à l'encontre de l'avis de notre manager."
+  team_text: "Nous consultons notre manager puis nous prenons notre décision, même si elle va à l'encontre de l'avis de notre manager."
 
 - number: 6
   color: "#4B0082"
   manager_title: "Déléguer et s'informer"
-  manager_text: "L'équipe prends la décision seule et m'informe de leur décision."
+  manager_text: "L'équipe prend sa décision seule et m'en informe."
   team_title: "Décider et informer"
-  team_text: "Nous sommes autonomes dans la prise de décision et nous informons notre manager de nos décisions."
+  team_text: "Nous sommes autonomes dans la prise de décision et nous en informons notre manager."
 
 - number: 7
   color: "#9400D3"
   manager_title: "Déléguer"
-  manager_text: "L'équipe prends la décision seule, sans m'en infromer."
+  manager_text: "L'équipe prend sa décision seule, sans m'en informer."
   team_title: "Décider"
-  team_text: "Nous sommes autonomes dans la prise de décision, notre manager n'a pas besoin d'être informé."
+  team_text: "Nous sommes autonomes dans la prise de décision, notre manager n'éprouve pas le besoin d'en être informé."

@@ -1,47 +1,47 @@
 - number: 1
-  color: "#FF0000"
+  color: "#BF0000"
   manager_title: "Annoncer"
   manager_text: "Je décide seul et j'annonce ma décision à l'équipe."
   team_title: "Suivre"
   team_text: "Nous sommes informés des décisions de notre manager."
 
 - number: 2
-  color: "#FF7F00"
+  color: "#BF5F00"
   manager_title: "Convaincre"
   manager_text: "Je décide et j'essaye de convaincre l'équipe de de ma décision."
   team_title: "Discuter"
   team_text: "Notre manager décide, puis essaie de nous convaincre de sa décision."
 
 - number: 3
-  color: "#FFFF00"
+  color: "#BFBF00"
   manager_title: "Consulter"
   manager_text: "Je consulte l'équipe avant de prendre ma décision."
   team_title: "Conseiller"
   team_text: "Notre manager nous consulte avant de prendre sa décision."
 
 - number: 4
-  color: "#00FF00"
+  color: "#00BF00"
   manager_title: "S'entendre"
   manager_text: "Nous prenons la décision en commun avec l'équipe."
   team_title: "S'entendre"
   team_text: "Nous prenons la décision en commun avec notre manager."
 
 - number: 5
-  color: "#0000FF"
+  color: "#0000BF"
   manager_title: "Conseiller"
   manager_text: "Je conseille l'équipe dans sa prise de décision et je la laisse décider."
   team_title: "Consulter"
   team_text: "Nous consultons notre manager puis nous prenons notre décision, même si elle va à l'encontre de l'avis de notre manager."
 
 - number: 6
-  color: "#4B0082"
+  color: "#36005E"
   manager_title: "Déléguer et s'informer"
   manager_text: "L'équipe prend sa décision seule et m'en informe."
   team_title: "Décider et informer"
   team_text: "Nous sommes autonomes dans la prise de décision et nous en informons notre manager."
 
 - number: 7
-  color: "#9400D3"
+  color: "#6F009E"
   manager_title: "Déléguer"
   manager_text: "L'équipe prend sa décision seule, sans m'en informer."
   team_title: "Décider"

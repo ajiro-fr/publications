@@ -22,16 +22,8 @@ end
 
 task :publish => [:rules, :verso, "_publish"] do
   Dir["data/*.yml"].map { |data| File.basename(data, '.yml') }.each do |kind|
-    parts = ["rules/rules-#{kind}.pdf", "_verso/poker-#{kind}-verso.pdf"].select { |e| File.file? e }
+    parts = ["_verso/poker-#{kind}-verso.pdf"].select { |e| File.file? e }
 
     sh "pdftk #{parts.join(" ")} cat output _publish/#{kind}.pdf"
   end
-end
-
-rules_files = Rake::FileList.new("rules/*.tex")
-task :rules => rules_files.ext(".pdf")
-
-rule ".pdf" => ".tex" do |t|
-  sh "pdflatex --output-directory rules #{t.source}"
-  sh "pdflatex --output-directory rules #{t.source}"
 end

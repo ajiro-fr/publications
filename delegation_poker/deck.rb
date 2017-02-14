@@ -32,7 +32,7 @@ Dir["data/*.yml"].each do |data|
     text str: values.map {|i| i['number'] }, layout: 'topleft_value'
     text str: 'manager', layout: 'manager_label'
     text str: values.map {|i| i['manager_title'] }, layout: 'manager_title'
-    svg file: "1f464.svg", layout: 'manager_icon', mask: values.map { |e| e["color"]}
+    svg file: "manager.svg", layout: 'manager_icon', mask: values.map { |e| e["color"]}
     text str: values.map {|i| i['manager_text'] }, layout: 'manager_text'
 
     line layout: 'middle_line', stroke_color: values.map { |e| e["color"]}
@@ -42,7 +42,7 @@ Dir["data/*.yml"].each do |data|
     text str: values.map {|i| i['number'] }, layout: 'bottomright_value'
     text str: 'team', layout: 'team_label'
     text str: values.map {|i| i['team_title'] }, layout: 'team_title'
-    svg file: "1f465.svg", layout: 'team_icon', mask: values.map { |e| e["color"]}
+    svg file: "team.svg", layout: 'team_icon', mask: values.map { |e| e["color"]}
     text str: values.map {|i| i['team_text'] }, layout: 'team_text'
 
     #grid width: 25,  height: 25,  stroke_color: '#659ae9', stroke_width: 1.5

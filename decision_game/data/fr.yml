@@ -1,0 +1,183 @@
+- icon: train.svg
+  text: |
+    Quel est le meilleur moyen de transport pour venir au travail ?
+
+    Train
+    Metro
+    Vélo
+    À pied
+    …
+
+- icon: punaise.svg
+  text: |
+    Est ce que Nantes est en Bretagne ?
+
+- icon: clock.svg
+  text: |
+    Quel est le meilleur horaire pour prendre le café ?
+
+- icon: lens.svg
+  text: |
+    Le mont saint michel est il normand ou breton ?
+
+- icon: yeux.svg
+  text: |
+    Quel est le meilleur musée de Paris ?
+
+    Le louvre
+    Musee d'orsay
+    Musée picasso
+    Beaubourg
+
+- icon: maillot-de-bain.svg
+  text: |
+    Dans quelle tenue sommes nous les plus beaux ?
+
+    Maillot de bain à la plage
+    Tenue de soirée
+    Décontractée
+    Adam &amp; Eve
+
+- icon: cactus.svg
+  text: |
+    Quelle est la meilleure stratégie de branche pour une application de type green field ?
+
+    Trunk based
+    Feature branching
+    Release branching
+
+- icon: montagne.svg
+  text: |
+    Plage ou montagne ?
+
+- icon: thermometre.svg
+  text: |
+    A quelle temperature ambiante doivent être chauffée les bureaux ?
+
+- icon: tennis.svg
+  text: |
+    Quel sport de raquette est le plus sympa ?
+
+    Badminton
+    Tennis
+    Tennis de table
+    Squash
+
+- icon: handshake.svg
+  text: |
+    Quel est le meilleur protocole de prise de décision ?
+
+    Consensus
+    Majority
+    Véto
+    Advisory protocol
+
+- icon: camera.svg
+  text: |
+    Quel est le lieu principal de tournage de Game of Thrones ?
+
+    Irlande
+    USA
+    France
+    Papouasie
+
+- icon: school.svg
+  text: |
+    Quelle est la meilleure école de formation au monde professionnel ?
+
+    Centrale
+    Polytechnique
+    HEC
+    Fac
+
+- icon: film.svg
+  text: |
+    Quel est le meilleur film de la serie star wars ?
+
+- icon: bebe.svg
+  text: |
+    Comment préférez vous faire garder votre enfant ?
+
+    Creche municipale
+    Creche parentale
+    Assistante maternelle
+    Père au foyer
+
+- icon: trophy.svg
+  text: |
+    Quel footbaleur est le plus beau ? Messi, Ronaldo, Ribery
+
+- icon: monaie.svg
+  text: |
+    Comment motivez plus son personnel ?
+
+    Donner des primes
+    Donner du feedback
+    Donner de l'autonomie
+    Plus de jours de congés
+
+- icon: plage.svg
+  text: |
+    Quel est le meilleur endroit ou passer son noel 2017 ?
+
+    En famille
+    Un chalet a la montagne
+    En guadeloupe au chaud sur la plage
+
+- icon: check.svg
+  text: |
+    Comment aller vous tester votre prochain projet ?
+
+    Les BA vont tester
+    Des QA vont tester
+
+- icon: police.svg
+  text: |
+    La police fait elle bien son travail ?
+
+- icon: target.svg
+  text: |
+    Qui doit définir nos objectifs ?
+
+    Dieu
+    Le chef
+    L'équipe
+    Moi
+
+- icon: cafe.svg
+  text: |
+    Quelles boissons devraient être disponibles à la cafétaria ?
+
+    Café
+    Thé
+    Chocolat
+
+- icon: cutlery.svg
+  text: |
+    Beurre doux (corps gras) ou beurre salé ?
+
+- icon: taches.svg
+  text: |
+    Qui assigne le mieux les taches ?
+
+    Le team leader
+    Le scrum master
+    L'équipe
+    Chacun pour soi
+
+- icon: foot.svg
+  text: |
+    Quelle équipe de foot pratique le plus beau jeu ?
+
+    PSG
+    OM
+    FCNA
+    OL
+
+- icon: contract.svg
+  text: |
+    Qui doit faire le recrutement ?
+
+    Les RH
+    Le chef
+    L'équipe

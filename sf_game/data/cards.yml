@@ -1,0 +1,100 @@
+---
+- title: Conversations Constructives
+  icon: icons/conversation.svg
+  description: |
+    CC~BY-SA~3.0~FR
+
+- title: Reconnaître que c'est fini
+  icon: icons/sands-of-time.svg
+  description: |
+    Quand c'est fini, c'est fini.
+    ---
+    Signaler explicitement quand il n'y a plus d'interet à continuer.
+    ---
+    Toutes les conversation ne sont pas forcéments productives : invoquez l'idée de "jetable".
+
+- title: À la place
+  icon: icons/health-normal.svg
+  description: |
+    Lorsque quelqu'un exprime ce qu'il ne veut pas, demander ce qu'il veut à la place, après avoir accepté son propos.
+
+- title: Proposition et ressource
+  icon: icons/talk.svg
+  description: |
+    Proposer quelque chose.
+    ---
+    Discuter une proposition aide à clarifer ce que l'on veut.
+    ---
+    Une proposition qui n'aboutit pas peut donner naissance à d'autres idées intéressantes.
+
+- title: Echelle de clareté
+  icon: icons/thermometer-scale.svg
+  description: |
+    Utiliser une échelle de clarté peut permettre de rester focalisé même (et surtout) lorsque cela devient confu.
+    ---
+    Sur une échelle de 1 à 10, 10 étant "notre sujet est absolument clair pour vous", où êtes-vous ?
+    ---
+    Qu'est-ce qui est déjà clair ?
+    ---
+    À quoi diriez-vous que vous avez progressé d'un point sur votre échelle de clareté.
+
+- title: Chacun son tour
+  icon: icons/walkie-talkie.svg
+  description: |
+    Préter attention au principe de "chacun son tour".
+    ---
+    Encourager de petites contributions
+    ---
+    Faire soit-même une contribution.
+    ---
+    Passer son tour.
+    ---
+    Permettre de passer son tour.
+
+- title: Reconnaitre la valeur
+  icon: icons/hearts.svg
+  description: |
+    Dire: "Ce que je trouve intéréssant / ce que j'aime c'est ... et ..."
+    ---
+    Il n'est pas nécéssaire d'accepter tout en bloc.
+    ---
+    Il est utile de faire une petite contribution à la fois, chacun son tour. Cela peut faciliter la co-construction.
+
+- title: Supposons...
+  icon: icons/island.svg
+  description: |
+    Décrire le monde différent dans lequel on évoluerait avec la proposition de solution faite par quelqu'un.
+    ---
+    Supposer que l'on ait trouver une "solution" et décrire les différences observées dans le monde avec cette solution.
+
+- title: "#Pausez-vous..."
+  icon: icons/hand.svg
+  description: |
+    Prendre quelques minutes de réflection à mis-parcours et appeler à réflechir à :
+    -- à quelle point la discussion a déjà été utile à ce stade ? (echelle 1-10), paratager les remarques
+    -- à quoi dirons nous que nous avons avancé d'un pas sur cette échelle ?
+
+- title: Embarquez vers la même destination
+  icon: icons/sailboat.svg
+  description: |
+    Vérifier que le résultat est (encore) le même pour tousles participants.
+    ---
+    "Qu'est-ce que vous éspérez de mieux de cette conversation ?"
+
+- title: Expliciter ce qui fonctionne déjà
+  icon: icons/cut-diamond.svg
+  description: |
+    Ce n'est pas gaget, c'est un outil de progrès.
+    ---
+    Qu'est-ce qui est déjà bien ?
+    ---
+    Prendre le temps pour entendre tout le monde.
+
+- title: Des détails, plutôt que des pourquois
+  icon: icons/sherlock-holmes.svg
+  description: |
+    Ajouter de la texture à ce qui est dit. Décrire "comment", "où", "avec qui" préciséement.
+    ---
+    Inviter les autres à donner de la texture.
+    ---
+    Retirer la question "pourquoi".

@@ -5,7 +5,6 @@ verso = '../common/ajiro-back.pdf'
 task default: [:deck]
 
 directory "_verso"
-directory "_publish"
 
 task :deck do
   load 'deck.rb'
@@ -18,9 +17,4 @@ task :verso => [:deck, "_verso"] do
     shuffle = (1..pages).map {|i| "A#{i} B1"}.join(" ")
     sh "pdftk A=#{pdf} B=#{verso} cat #{shuffle} output _verso/#{name}.pdf"
   end
-end
-
-task :publish => [:verso, "_publish"] do
-  parts = Dir["_verso/*.pdf"]
-  sh "pdftk #{parts.join(" ")} cat output _publish/cards.pdf"
 end

@@ -42,9 +42,9 @@ Dir["data/*.yml"].each do |data|
 
     text str: copywright, layout: 'copyright'
 
-    cutmark 40, 40, 785, 1085, 10
+    rect layout: 'cut'
     save format: :pdf, file: "questions-#{lang}.pdf", width: "29.7cm", height: "21cm", trim: 40, gap: 0
-    #save_sheet range: 0..7, columns: 4, rows: 2, trim: 40, gap: 0, prefix: "questions-#{lang}-"
+    save format: :pdf, file: "questions-#{lang}-print.pdf", width: "29.7cm", height: "21cm"
     showcase range: 0..4, offset: 0.8, trim: 40, trim_radius: 16, fill_color: '#3D7890'
     hand range: 0..10, trim: 40, trim_radius: 16, fill_color: '#3D7890'
   end
@@ -61,8 +61,8 @@ Dir["data/*.yml"].each do |data|
 
     text str: copywright, layout: 'copyright'
 
-    cutmark 40, 40, 785, 1085, 10
+    rect layout: 'cut'
     save format: :pdf, file: "answers-#{lang}.pdf", width: "29.7cm", height: "21cm", trim: 40, gap: 0
-    #save_sheet range: 0..7, columns: 4, rows: 2, trim: 40, gap: 0, prefix: "answers-#{lang}-"
+    save format: :pdf, file: "answers-#{lang}-print.pdf", width: "29.7cm", height: "21cm"
   end
 end

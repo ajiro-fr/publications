@@ -3,7 +3,7 @@
   icon: icons/conversation.svg
   description: |
     CC~BY-SA~3.0~FR
-    
+
     Nicolas Fournier
     Géry Derbier
 
@@ -57,9 +57,9 @@
 - title: Reconnaitre la valeur
   icon: icons/hearts.svg
   description: |
-    Dire: "Ce que je trouve intéréssant / ce que j'aime c'est ... et ..."
+    Dire: "Ce que je trouve intéressant / ce que j'aime c'est ... et ..."
     ---
-    Il n'est pas nécéssaire d'accepter tout en bloc.
+    Il n'est pas nécessaire d'accepter tout en bloc.
     ---
     Il est utile de faire une petite contribution à la fois, chacun son tour. Cela peut faciliter la co-construction.
 
@@ -80,14 +80,14 @@
 - title: Embarquez vers la même destination
   icon: icons/sailboat.svg
   description: |
-    Vérifier que le résultat est (encore) le même pour tousles participants.
+    Vérifier que le résultat est (encore) le même pour tous les participants.
     ---
     "Qu'est-ce que vous éspérez de mieux de cette conversation ?"
 
 - title: Expliciter ce qui fonctionne déjà
   icon: icons/cut-diamond.svg
   description: |
-    Ce n'est pas gaget, c'est un outil de progrès.
+    Ce n'est pas gadget, c'est un outil de progrès.
     ---
     Qu'est-ce qui est déjà bien ?
     ---

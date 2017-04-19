@@ -21,7 +21,8 @@ Dir["data/*.yml"].each do |data|
     svg file: questions.map {|i| i['icon'] }, layout: 'art'
 
     rect layout: 'text_section'
-    text str: questions.map {|i| i['text'] }, layout: 'text'
+    text str: questions.map {|i| i['question'] }, layout: 'question'
+    text str: questions.map {|i| i['choices'] }, layout: 'choices'
 
     text str: copywright, layout: 'copyright'
 

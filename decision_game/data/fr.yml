@@ -1,7 +1,7 @@
 - icon: train.svg
-  text: |
+  question: |
     Quel est le meilleur moyen de transport pour venir au travail ?
-
+  choices: |
     Train
     Metro
     Vélo
@@ -9,251 +9,254 @@
     …
 
 - icon: punaise.svg
-  text: |
+  question: |
     Est ce que Nantes est en Bretagne ?
-
 - icon: clock.svg
-  text: |
+  question: |
     Quel est le meilleur horaire pour prendre le café ?
 
 - icon: lens.svg
-  text: |
+  question: |
     Le mont saint michel est il normand ou breton ?
 
 - icon: yeux.svg
-  text: |
+  question: |
     Quel est le meilleur musée de Paris ?
-
+  choices: |
     Le louvre
     Musee d'orsay
     Musée picasso
     Beaubourg
 
 - icon: maillot-de-bain.svg
-  text: |
+  question: |
     Dans quelle tenue sommes nous les plus beaux ?
-
+  choices: |
     Maillot de bain à la plage
     Tenue de soirée
     Décontractée
     Adam &amp; Eve
 
 - icon: cactus.svg
-  text: |
+  question: |
     Quelle est la meilleure stratégie de branche pour une application de type green field ?
-
+  choices: |
     Trunk based
     Feature branching
     Release branching
 
 - icon: montagne.svg
-  text: |
+  question: |
     Plage ou montagne ?
 
 - icon: thermometre.svg
-  text: |
+  question: |
     A quelle temperature ambiante doivent être chauffée les bureaux ?
 
 - icon: tennis.svg
-  text: |
+  question: |
     Quel sport de raquette est le plus sympa ?
-
+  choices: |
     Badminton
     Tennis
     Tennis de table
     Squash
 
 - icon: handshake.svg
-  text: |
+  question: |
     Quel est le meilleur protocole de prise de décision ?
-
+  choices: |
     Consensus
     Majority
     Véto
     Advisory protocol
 
 - icon: camera.svg
-  text: |
+  question: |
     Quel est le lieu principal de tournage de Game of Thrones ?
-
+  choices: |
     Irlande
     USA
     France
     Papouasie
 
 - icon: school.svg
-  text: |
+  question: |
     Quelle est la meilleure école de formation au monde professionnel ?
-
+  choices: |
     Centrale
     Polytechnique
     HEC
     Fac
 
 - icon: film.svg
-  text: |
+  question: |
     Quel est le meilleur film de la serie star wars ?
 
 - icon: bebe.svg
-  text: |
+  question: |
     Comment préférez vous faire garder votre enfant ?
-
+  choices: |
     Creche municipale
     Creche parentale
     Assistante maternelle
     Père au foyer
 
 - icon: trophy.svg
-  text: |
-    Quel footbaleur est le plus beau ? Messi, Ronaldo, Ribery
+  question: |
+    Quel footbaleur est le plus beau ?
+  choices: |
+    Messi
+    Ronaldo
+    Ribery
 
 - icon: monaie.svg
-  text: |
+  question: |
     Comment motivez plus son personnel ?
-
+  choices: |
     Donner des primes
     Donner du feedback
     Donner de l'autonomie
     Plus de jours de congés
 
 - icon: plage.svg
-  text: |
-    Quel est le meilleur endroit ou passer son noel 2017 ?
-
+  question: |
+    Quel est le meilleur endroit ou passer son noël ?
+  choices: |
     En famille
     Un chalet a la montagne
     En guadeloupe au chaud sur la plage
 
 - icon: check.svg
-  text: |
+  question: |
     Comment aller vous tester votre prochain projet ?
-
+  choices: |
     Les BA vont tester
     Des QA vont tester
 
 - icon: police.svg
-  text: |
+  question: |
     La police fait elle bien son travail ?
 
 - icon: target.svg
-  text: |
+  question: |
     Qui doit définir nos objectifs ?
-
+  choices: |
     Dieu
     Le chef
     L'équipe
     Moi
 
 - icon: cafe.svg
-  text: |
+  question: |
     Quelles boissons devraient être disponibles à la cafétaria ?
-
+  choices: |
     Café
     Thé
     Chocolat
 
 - icon: cutlery.svg
-  text: |
+  question: |
     Beurre doux (corps gras) ou beurre salé ?
 
 - icon: taches.svg
-  text: |
+  question: |
     Qui assigne le mieux les taches ?
-
+  choices: |
     Le team leader
     Le scrum master
     L'équipe
     Chacun pour soi
 
 - icon: foot.svg
-  text: |
+  question: |
     Quelle équipe de foot pratique le plus beau jeu ?
-
+  choices: |
     PSG
     OM
     FCNA
     OL
 
 - icon: contract.svg
-  text: |
+  question: |
     Qui doit faire le recrutement ?
-
+  choices: |
     Les RH
     Le chef
     L'équipe
 
 - icon: ville.svg
-  text: |
+  question: |
     Quelle est la meilleure ville de France pour vivre ?
 
 - icon: computer.svg
-  text: |
+  question: |
     Mac ou PC ?
 
 - icon: phone.svg
-  text: |
+  question: |
     Android ou iOS ?
 
 - icon: clock.svg
-  text: |
-    Horaires fixes (ex: 9-18) ou horaires libres
+  question: |
+    Horaires fixes (ex: 9-18) ou horaires libres ?
 
 - icon: school.svg
-  text: |
-    Ecole publique ou école privé
+  question: |
+    Ecole publique ou école privé ?
 
 - icon: sport.svg
-  text: |
+  question: |
     Sport individuel ou sport d’équipe ?
 
 - icon: glass.svg
-  text: |
+  question: |
     Vin blanc ou vin rouge ?
 
 - icon: cat.svg
-  text: |
+  question: |
     Chat ou chien ?
 
 - icon: dog.svg
-  text: |
+  question: |
     La race de chien la plus facile a dresser ?
 
 - icon: modern-train.svg
-  text: |
+  question: |
     Aller à Bordeaux en train, avion ou voiture?
 
 - icon: rule.svg
-  text: |
+  question: |
     Quelle ville est plus proche de Paris: Bordeaux ou Grenoble ?
 
 - icon: office.svg
-  text: |
+  question: |
     S’installer en open-space ou bureaux fermés ?
 
 - icon: pizza.svg
-  text: |
+  question: |
     Pour ce midi italien, japonais ou brasserie ?
 
 - icon: science.svg
-  text: |
+  question: |
     Quelle est l’entreprise française la plus innovante ?
 
 - icon: bier.svg
-  text: |
+  question: |
     Quelle bière française pour accompagner un hamburger ?
 
 - icon: glass.svg
-  text: |
+  question: |
     Quel est le meilleur vin français ?
 
 - icon: map.svg
-  text: |
+  question: |
     Dans quel coin du monde faut-il faire de la plongé ?
 
 - icon: tractor.svg
-  text: |
+  question: |
     Interdire ou pas le diesel ?
 
 - icon: nuclear.svg
-  text: |
+  question: |
     Sortir ou pas du nucléaire ?

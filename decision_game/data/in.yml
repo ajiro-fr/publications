@@ -1,51 +1,51 @@
 - icon: cricket.svg
-  text: |
+  question: |
     Who is the best cricket player ever ?
-
+  choices: |
     Kapil Dev
     Vivians Richard
     Gary Sobers
     Sachin Tendulkar
 
 - icon: broom.svg
-  text: |
+  question: |
     Who should clean the streets ?
-
+  choices: |
     The city
     The government
     Everyone's duty
 
 
 - icon: taj-mahal.svg
-  text: |
+  question: |
     What is the best place to visit in india ?
-
+  choices: |
     Party in Goa
     Scuba Diving in Andaman
     Under the stars in Ladakh
     The Taj Mahal in Agra
 
 - icon: film.svg
-  text: |
+  question: |
     What is the best indian movie ?
-
+  choices: |
     3 idiots
     Lagaan
     Rang De Basanti
     Mughal E Azam
 
 - icon: road.svg
-  text: |
+  question: |
     Should we drive left or right ?
 
 - icon: question.svg
-  text: |
+  question: |
     Pritech or Voyager ?
 
 - icon: presentation.svg
-  text: |
+  question: |
     What is the agile conference you have to go in India ?
-
+  choices: |
     XP conference
     Agile India
     Lean Kanban India

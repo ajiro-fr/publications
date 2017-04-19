@@ -181,3 +181,79 @@
     Les RH
     Le chef
     L'équipe
+
+- icon: ville.svg
+  text: |
+    Quelle est la meilleure ville de France pour vivre ?
+
+- icon: computer.svg
+  text: |
+    Mac ou PC ?
+
+- icon: phone.svg
+  text: |
+    Android ou iOS ?
+
+- icon: clock.svg
+  text: |
+    Horaires fixes (ex: 9-18) ou horaires libres
+
+- icon: school.svg
+  text: |
+    Ecole publique ou école privé
+
+- icon: sport.svg
+  text: |
+    Sport individuel ou sport d’équipe ?
+
+- icon: glass.svg
+  text: |
+    Vin blanc ou vin rouge ?
+
+- icon: cat.svg
+  text: |
+    Chat ou chien ?
+
+- icon: dog.svg
+  text: |
+    La race de chien la plus facile a dresser ?
+
+- icon: modern-train.svg
+  text: |
+    Aller à Bordeaux en train, avion ou voiture?
+
+- icon: rule.svg
+  text: |
+    Quelle ville est plus proche de Paris: Bordeaux ou Grenoble ?
+
+- icon: office.svg
+  text: |
+    S’installer en open-space ou bureaux fermés ?
+
+- icon: pizza.svg
+  text: |
+    Pour ce midi italien, japonais ou brasserie ?
+
+- icon: science.svg
+  text: |
+    Quelle est l’entreprise française la plus innovante ?
+
+- icon: bier.svg
+  text: |
+    Quelle bière française pour accompagner un hamburger ?
+
+- icon: glass.svg
+  text: |
+    Quel est le meilleur vin français ?
+
+- icon: map.svg
+  text: |
+    Dans quel coin du monde faut-il faire de la plongé ?
+
+- icon: tractor.svg
+  text: |
+    Interdire ou pas le diesel ?
+
+- icon: nuclear.svg
+  text: |
+    Sortir ou pas du nucléaire ?

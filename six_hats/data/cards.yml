@@ -1,36 +1,107 @@
 ---
+
 - title: Processus
   color: blue-hat
-  icon: icons/pointy-hat.svg
+  intent: Bleu du ciel qui englobe tout
+  subtitle: Organisation de la pensée
+  details: |
+    Processus
+    Synthèse
+  persona: |
+    Persona : l’animateur
+    Canalise les idées et les échanges
+  questions: |
+    - Quel est l’objectif ?
+    - Qu’est-ce qu’on retient de cette séquence ?
+    - Quelles priorités ?
+    - Quel plan pour la suite ?
   description: |
     L'organisation : c’est le meneur de jeu, l’animateur de la réunion qui canalise les idées et les échanges entre les autres chapeaux. C’est le bleu du ciel qui englobe tout.
 
 - title: Information
   color: white-hat
-  icon: icons/pointy-hat.svg
+  intent: Blanc de la neutralité et de la froideur
+  subtitle: Informations objectives
+  details: |
+    Les faits
+    Non jugement
+    Non interprétation
+  persona: |
+    Persona : l’ordinateur
+    Énonce les faits purement et simplement
+  questions: |
+    - De quelles informations disposons-nous ?
+    - Quelles informations nous manquent ?
+    - Quels sont les faits ?
   description: |
     La neutralité : lorsqu’il porte le chapeau blanc, le penseur énonce des faits purement et simplement. La personne alimente le groupe en chiffres et en informations. C’est l’image de la froideur. C'est le goût de la simplicité : le minimalisme.
 
 - title: Jugement
   color: black-hat
-  icon: icons/pointy-hat.svg
+  intent: Noir de la prudence
+  subtitle: Critiques négatives
+  details: |
+    Faiblesses
+    Dangers
+  persona: |
+    Persona : l’avocat du diable
+    Souligne les risques et les obstacles
+  questions: |
+    - Quels sont nos manques, nos faiblesses ?
+    - Quels sont les risques possibles ?
+    - Quels obstacles risquons-nous de rencontrer?
+    - Quelles sont les limites de notre projet ?
   description: |
     La critique négative : lorsqu’il porte le chapeau noir, le penseur fait des objections en soulignant les dangers et risques qui attendent la concrétisation de l’idée. C’est l’avocat du diable ! C’est la prudence, le jugement négatif.
 
 - title: Optimisme
   color: yellow-hat
-  icon: icons/pointy-hat.svg
+  intent: Jaune du soleil
+  subtitle: Critiques positives
+  details: |
+    Forces et atouts
+    Tout ce qui va bien
+  persona: |
+    Persona : l’optimiste
+    Admet ses rêves et ses idées les plus folles
+  questions: |
+    - Quelles sont nos forces ?
+    - Qu’est ce qui marche bien ?
+    - Quelles sont les opportunités ?
   description: |
     La critique positive : lorsqu’il porte le chapeau jaune, le penseur admet ses rêves et ses idées les plus folles. Ses commentaires sont constructifs et tentent de mettre en action les idées suggérées par les autres membres du groupe. C’est le soleil et l’optimisme.
 
 - title: Créativité
   color: green-hat
-  icon: icons/pointy-hat.svg
+  intent: Vert de la fertilité
+  subtitle: Pensée latérale
+  details: |
+    Sans restriction
+    Nouvelle vision
+    Innovation
+  persona: |
+    Persona : le brainstorming
+    Provoque, recherche des solutions alternatives
+  questions: |
+    - Comment faire autrement ?
+    - Quelles nouvelles idées ?
+    - Quelles alternatives ?
   description: |
     La créativité : lorsqu’il porte le chapeau vert, le penseur provoque, recherche des solutions de rechange. Il s’inspire de la pensée latérale, d’une façon différente de considérer un problème. Il sort des sentiers battus et propose des idées neuves. C’est la fertilité des plantes, la semence des idées.
 
 - title: Intuitions
   color: orange-hat
-  icon: icons/pointy-hat.svg
+  intent: Rouge du feu, du coeur
+  subtitle: Emotions
+  details: |
+    Sentiments
+    Pressentiments
+    Ressentis
+  persona: |
+    Persona : le passionné
+    Rapporte ses émotions
+  questions: |
+    - Qu’est ce que je ressens ?
+    - Quelle est mon intuition pour la suite ?
   description: |
     La critique émotionnelle : avec le chapeau orange, le penseur rapporte ses informations teintées d’émotions, de sentiments, d’intuitions et de pressentiments. Il n’a pas à se justifier auprès des autres chapeaux. C’est le feu, la passion, l'intuition.

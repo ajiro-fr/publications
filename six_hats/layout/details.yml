@@ -52,6 +52,12 @@ art:
   align: center
   valign: middle
 
+hat:
+  x: 100
+  y: 295
+  width: 625
+  height: 625
+
 description_background:
   extends: 'background'
   fill_color: "#ffffffB0"

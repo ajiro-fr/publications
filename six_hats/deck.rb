@@ -44,6 +44,8 @@ Squib::Deck.new(cards: Cards.size, layout: 'layout/details.yml') do
   svg file: Icon, mask: Colors, layout: 'art'
 
   rect layout: 'description_background'
+  svg file: Icon, mask: '#00000010', layout: 'hat'
+
   text str: Cards.map { |e| e["intent"]}, layout: 'intent_text', markup: true
   text str: Cards.map { |e| e["subtitle"]}, layout: 'subtitle_text', markup: true
   text str: Cards.map { |e| e["details"]}, layout: 'details_text', markup: true

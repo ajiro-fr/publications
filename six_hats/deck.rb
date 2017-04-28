@@ -17,6 +17,7 @@ end
 
 Cards = YAML.load_file('data/cards.yml')
 Colors = Cards.map { |e| e["color"]}
+HatColors = Cards.map { |e| e["hat-color"]}
 Squib::Deck.new(cards: Cards.size, layout: 'layout/short.yml') do
   background color: 'white'
   rect layout: 'safe', fill_color: Colors, radius: 10
@@ -44,7 +45,8 @@ Squib::Deck.new(cards: Cards.size, layout: 'layout/details.yml') do
   svg file: Icon, mask: Colors, layout: 'art'
 
   rect layout: 'description_background'
-  svg file: Icon, mask: '#00000010', layout: 'hat'
+  svg file: Icon, mask: HatColors, layout: 'hat'
+  # '#00000010'
 
   text str: Cards.map { |e| e["intent"]}, layout: 'intent_text', markup: true
   text str: Cards.map { |e| e["subtitle"]}, layout: 'subtitle_text', markup: true

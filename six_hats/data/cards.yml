@@ -2,6 +2,7 @@
 
 - title: Processus
   color: blue-hat
+  hat-color: blue-hat-bg
   intent: Bleu du ciel qui englobe tout
   subtitle: Organisation de la pensée
   details: |
@@ -20,6 +21,7 @@
 
 - title: Information
   color: white-hat
+  hat-color: white-hat-bg
   intent: Blanc de la neutralité et de la froideur
   subtitle: Informations objectives
   details: |
@@ -38,6 +40,7 @@
 
 - title: Jugement
   color: black-hat
+  hat-color: black-hat-bg
   intent: Noir de la prudence
   subtitle: Critiques négatives
   details: |
@@ -56,6 +59,7 @@
 
 - title: Optimisme
   color: yellow-hat
+  hat-color: yellow-hat-bg
   intent: Jaune du soleil
   subtitle: Critiques positives
   details: |
@@ -73,6 +77,7 @@
 
 - title: Créativité
   color: green-hat
+  hat-color: green-hat-bg
   intent: Vert de la fertilité
   subtitle: Pensée latérale
   details: |
@@ -91,6 +96,7 @@
 
 - title: Intuitions
   color: orange-hat
+  hat-color: orange-hat-bg
   intent: Rouge du feu, du coeur
   subtitle: Emotions
   details: |

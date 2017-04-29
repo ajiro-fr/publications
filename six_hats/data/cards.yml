@@ -16,8 +16,6 @@
     - Qu’est-ce qu’on retient de cette séquence ?
     - Quelles priorités ?
     - Quel plan pour la suite ?
-  description: |
-    L'organisation : c’est le meneur de jeu, l’animateur de la réunion qui canalise les idées et les échanges entre les autres chapeaux. C’est le bleu du ciel qui englobe tout.
 
 - title: Information
   color: white-hat
@@ -35,8 +33,6 @@
     - De quelles informations disposons-nous ?
     - Quelles informations nous manquent ?
     - Quels sont les faits ?
-  description: |
-    La neutralité : lorsqu’il porte le chapeau blanc, le penseur énonce des faits purement et simplement. La personne alimente le groupe en chiffres et en informations. C’est l’image de la froideur. C'est le goût de la simplicité : le minimalisme.
 
 - title: Jugement
   color: black-hat
@@ -54,8 +50,6 @@
     - Quels sont les risques possibles ?
     - Quels obstacles risquons-nous de rencontrer?
     - Quelles sont les limites de notre projet ?
-  description: |
-    La critique négative : lorsqu’il porte le chapeau noir, le penseur fait des objections en soulignant les dangers et risques qui attendent la concrétisation de l’idée. C’est l’avocat du diable ! C’est la prudence, le jugement négatif.
 
 - title: Optimisme
   color: yellow-hat
@@ -72,8 +66,6 @@
     - Quelles sont nos forces ?
     - Qu’est ce qui marche bien ?
     - Quelles sont les opportunités ?
-  description: |
-    La critique positive : lorsqu’il porte le chapeau jaune, le penseur admet ses rêves et ses idées les plus folles. Ses commentaires sont constructifs et tentent de mettre en action les idées suggérées par les autres membres du groupe. C’est le soleil et l’optimisme.
 
 - title: Créativité
   color: green-hat
@@ -91,8 +83,6 @@
     - Comment faire autrement ?
     - Quelles nouvelles idées ?
     - Quelles alternatives ?
-  description: |
-    La créativité : lorsqu’il porte le chapeau vert, le penseur provoque, recherche des solutions de rechange. Il s’inspire de la pensée latérale, d’une façon différente de considérer un problème. Il sort des sentiers battus et propose des idées neuves. C’est la fertilité des plantes, la semence des idées.
 
 - title: Intuitions
   color: orange-hat
@@ -109,5 +99,3 @@
   questions: |
     - Qu’est ce que je ressens ?
     - Quelle est mon intuition pour la suite ?
-  description: |
-    La critique émotionnelle : avec le chapeau orange, le penseur rapporte ses informations teintées d’émotions, de sentiments, d’intuitions et de pressentiments. Il n’a pas à se justifier auprès des autres chapeaux. C’est le feu, la passion, l'intuition.

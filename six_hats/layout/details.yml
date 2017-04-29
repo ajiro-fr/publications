@@ -76,7 +76,7 @@ intent_text:
 
 subtitle_text:
   extends: 'text'
-  y: 400
+  y: 530
   height: 70
   justify: false
   valign: middle
@@ -86,7 +86,7 @@ subtitle_text:
 
 details_text:
   extends: 'text'
-  y: 490
+  y: 620
   height: 120
   justify: false
   valign: top
@@ -95,7 +95,7 @@ details_text:
 
 persona_text:
   extends: 'text'
-  y: 640
+  y: 400
   height: 120
   justify: false
   valign: top
@@ -104,7 +104,7 @@ persona_text:
 
 question_title_text:
   extends: 'text'
-  y: 790
+  y: 770
   height: 50
   justify: false
   valign: middle
@@ -113,7 +113,7 @@ question_title_text:
 
 questions_text:
   extends: 'text'
-  y: 850
+  y: 830
   height: 150
   justify: false
   valign: top

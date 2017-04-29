@@ -9,7 +9,7 @@
     Processus
     Synthèse
   persona: |
-    Persona : l’animateur
+    — L’animateur —
     Canalise les idées et les échanges
   questions: |
     - Quel est l’objectif ?
@@ -29,7 +29,7 @@
     Non jugement
     Non interprétation
   persona: |
-    Persona : l’ordinateur
+    — L’ordinateur —
     Énonce les faits purement et simplement
   questions: |
     - De quelles informations disposons-nous ?
@@ -47,7 +47,7 @@
     Faiblesses
     Dangers
   persona: |
-    Persona : l’avocat du diable
+    — L’avocat du diable —
     Souligne les risques et les obstacles
   questions: |
     - Quels sont nos manques, nos faiblesses ?
@@ -66,7 +66,7 @@
     Forces et atouts
     Tout ce qui va bien
   persona: |
-    Persona : l’optimiste
+    — L’optimiste —
     Admet ses rêves et ses idées les plus folles
   questions: |
     - Quelles sont nos forces ?
@@ -85,7 +85,7 @@
     Nouvelle vision
     Innovation
   persona: |
-    Persona : le brainstorming
+    — Le brainstorming —
     Provoque, recherche des solutions alternatives
   questions: |
     - Comment faire autrement ?
@@ -104,7 +104,7 @@
     Pressentiments
     Ressentis
   persona: |
-    Persona : le passionné
+    — Le passionné —
     Rapporte ses émotions
   questions: |
     - Qu’est ce que je ressens ?

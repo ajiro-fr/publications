@@ -15,35 +15,36 @@ safe:
   height: 975
   crop_corner_radius: 10
 
-text:
+text-base:
   x: 125
   width: 575
   align: center
   valign: middle
   font: Linux Libertine
 
-background:
+background-base:
   x: 100
   width: 625
   radius: 10
   stroke_width: 1
 
-title_background:
-  extends: 'background'
+title-background:
+  extends: 'background-base'
+  y: 110
+  height: 140
   fill_color: "#000000B0"
-  y: 110
-  height: 140
 
-title_text:
-  extends: 'text'
+title:
   x: 240
-  width: 485
   y: 110
+  width: 485
   height: 140
+  align: center
+  valign: middle
   font_size: 40
   font: Linux Libertine Bold
 
-art:
+hat-icon:
   x: 110
   y: 120
   width: 120
@@ -52,20 +53,20 @@ art:
   align: center
   valign: middle
 
-hat:
+hat-watermark:
   x: 100
   y: 295
   width: 625
   height: 625
 
-description_background:
-  extends: 'background'
+description-background:
+  extends: 'background-base'
   fill_color: "#ffffffB0"
   y: 295
   height: 720
 
-intent_text:
-  extends: 'text'
+intent:
+  extends: 'text-base'
   y: 320
   height: 50
   justify: false
@@ -74,8 +75,8 @@ intent_text:
   font_size: 25
   font: Linux Libertine Italic
 
-subtitle_text:
-  extends: 'text'
+subtitle:
+  extends: 'text-base'
   y: 530
   height: 70
   justify: false
@@ -84,8 +85,8 @@ subtitle_text:
   font_size: 30
   font: Linux Libertine Bold
 
-details_text:
-  extends: 'text'
+details:
+  extends: 'text-base'
   y: 620
   height: 120
   justify: false
@@ -93,8 +94,8 @@ details_text:
   align: center
   font_size: 24
 
-persona_text:
-  extends: 'text'
+persona:
+  extends: 'text-base'
   y: 400
   height: 120
   justify: false
@@ -102,8 +103,8 @@ persona_text:
   align: center
   font_size: 24
 
-question_title_text:
-  extends: 'text'
+question-title:
+  extends: 'text-base'
   y: 770
   height: 50
   justify: false
@@ -111,23 +112,14 @@ question_title_text:
   align: center
   font_size: 25
 
-questions_text:
-  extends: 'text'
+questions:
+  extends: 'text-base'
   y: 830
   height: 150
   justify: false
   valign: top
   align: left
   font_size: 22
-
-description_text:
-  extends: 'text'
-  y: 460
-  height: 530
-  justify: false
-  valign: middle
-  align: center
-  font_size: 30
 
 copyright:
   x: 75

@@ -77,3 +77,22 @@ copyright:
   align: center
   valign: bottom
   font: Linux Libertine
+
+first_card_background:
+  extends: title_background
+  height: 905
+
+first_card_text:
+  extends: title_text
+  x: 125
+  height: 195
+  width: 575
+
+first_card_art:
+  extends: art
+  x: 115
+  y: 320
+  height: 670
+  width: 590
+  align: center
+  valign: middle

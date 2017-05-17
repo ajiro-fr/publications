@@ -21,17 +21,27 @@ end
 
 Cards = YAML.load_file('data/cards.yml')
 Squib::Deck.new(cards: Cards.size, layout: 'layout/short.yml') do
+  OtherCardsRange = 1..Cards.size - 1
+
   set_background
+  # debug_grid
 
-  rect layout: 'title_background'
-  text str: Cards.map { |e| e["title"]}, layout: 'title_text'
+  # First card
+  rect range: 0, layout: 'first_card_background'
+  text range: 0, str: Cards.map { |e| e["title"]}, layout: 'first_card_text'
 
+  svg range: 0, file: Cards.map {|i| i['icon'] }, layout: 'first_card_art'
 
-  svg file: Cards.map {|i| i['icon'] }, layout: 'art'
+  # All other cards
+  rect range: OtherCardsRange, layout: 'title_background'
+  text range: OtherCardsRange, str: Cards.map { |e| e["title"]}, layout: 'title_text'
 
-  rect layout: 'description_background'
-  text str: Cards.map { |e| e["description"]}, layout: 'description_text', markup: true
+  svg range: OtherCardsRange, file: Cards.map {|i| i['icon'] }, layout: 'art'
 
+  rect range: OtherCardsRange, layout: 'description_background'
+  text range: OtherCardsRange, str: Cards.map { |e| e["description"]}, layout: 'description_text', markup: true
+
+  # Copywright on all cards
   text str: Copywright, layout: 'copyright'
 
   save_home_made "cards.pdf"

@@ -20,6 +20,12 @@ custom_colors:
   yellow-hat: '#fedc71'
   green-hat: '#8dc16c'
   orange-hat: '#ef8b57'
+  blue-hat-bg: '#1dbbea30'
+  white-hat-bg: '#F0F0F0F0'
+  black-hat-bg: '#70717330'
+  yellow-hat-bg: '#fedc7130'
+  green-hat-bg: '#8dc16c30'
+  orange-hat-bg: '#ef8b5730'
 
 warn_ellipsize: true
 warn_png_scale: true

@@ -4,7 +4,7 @@ require 'yaml'
 Version=1
 Copywright = "CC~BY-SA~3.0~FR, version: v#{Version}"
 
-Icon='icons/pointy-hat.svg'
+Hat='icons/pointy-hat.svg'
 
 def save_home_made(file)
   save format: :pdf, file: file, width: "29.7cm", height: "21cm", trim: 40, gap: 0
@@ -17,18 +17,25 @@ end
 
 Cards = YAML.load_file('data/cards.yml')
 Colors = Cards.map { |e| e["color"]}
-Squib::Deck.new(cards: Cards.size, layout: 'layout/short.yml') do
+HatColors = Cards.map { |e| e["hat-color"]}
+
+Squib::Deck.new(cards: Cards.size, layout: 'layout/details.yml') do
   background color: 'white'
   rect layout: 'safe', fill_color: Colors, radius: 10
 
-  rect layout: 'title_background'
-  text str: Cards.map { |e| e["title"]}, layout: 'title_text', color: Colors
+  rect layout: 'title-background'
+  rect layout: 'description-background'
 
-  svg file: Icon, mask: Colors, layout: 'art'
+  svg file: Hat, mask: Colors, layout: 'hat-icon'
+  svg file: Hat, mask: HatColors, layout: 'hat-watermark'
 
-  rect layout: 'description_background'
-  text str: Cards.map { |e| e["description"]}, layout: 'description_text', markup: true
-
+  text str: Cards.map { |e| e["title"]}, layout: 'title', color: Colors
+  text str: Cards.map { |e| e["intent"]}, layout: 'intent', markup: true
+  text str: Cards.map { |e| e["subtitle"]}, layout: 'subtitle', markup: true
+  text str: Cards.map { |e| e["details"]}, layout: 'details', markup: true
+  text str: Cards.map { |e| e["persona"]}, layout: 'persona', markup: true
+  text str: "Exemples de questions", layout: 'question-title', markup: true
+  text str: Cards.map { |e| e["questions"]}, layout: 'questions', markup: true
   text str: Copywright, layout: 'copyright'
 
   save_home_made "cards.pdf"

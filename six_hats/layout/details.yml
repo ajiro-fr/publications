@@ -1,0 +1,132 @@
+# 825 x 1125  2.5in x 3.5in  6,35cm x 8,89cm
+
+# The "cut line", without rounded corners
+cut:
+  x: 37.5
+  y: 37.5
+  width: 750
+  height: 1050
+
+# The "safe zone" as defined by TheGameCrafter poker cards
+safe:
+  x: 75
+  y: 75
+  width: 675
+  height: 975
+  crop_corner_radius: 10
+
+text-base:
+  x: 125
+  width: 575
+  align: center
+  valign: middle
+  font: Linux Libertine
+
+background-base:
+  x: 100
+  width: 625
+  radius: 10
+  stroke_width: 1
+
+title-background:
+  extends: 'background-base'
+  y: 110
+  height: 140
+  fill_color: "#000000B0"
+
+title:
+  x: 240
+  y: 110
+  width: 485
+  height: 140
+  align: center
+  valign: middle
+  font_size: 40
+  font: Linux Libertine Bold
+
+hat-icon:
+  x: 110
+  y: 120
+  width: 120
+  height: 120
+  radius: 10
+  align: center
+  valign: middle
+
+hat-watermark:
+  x: 100
+  y: 295
+  width: 625
+  height: 625
+
+description-background:
+  extends: 'background-base'
+  fill_color: "#ffffffB0"
+  y: 295
+  height: 720
+
+intent:
+  extends: 'text-base'
+  y: 320
+  height: 50
+  justify: false
+  valign: top
+  align: center
+  font_size: 25
+  font: Linux Libertine Italic
+
+subtitle:
+  extends: 'text-base'
+  y: 530
+  height: 70
+  justify: false
+  valign: middle
+  align: center
+  font_size: 30
+  font: Linux Libertine Bold
+
+details:
+  extends: 'text-base'
+  y: 620
+  height: 120
+  justify: false
+  valign: top
+  align: center
+  font_size: 24
+
+persona:
+  extends: 'text-base'
+  y: 400
+  height: 120
+  justify: false
+  valign: top
+  align: center
+  font_size: 24
+
+question-title:
+  extends: 'text-base'
+  y: 770
+  height: 50
+  justify: false
+  valign: middle
+  align: center
+  font_size: 25
+
+questions:
+  extends: 'text-base'
+  y: 830
+  height: 150
+  justify: false
+  valign: top
+  align: left
+  font_size: 22
+
+copyright:
+  x: 75
+  y: 1020
+  width: 675
+  height: 25
+  font_size: 14
+  align: center
+  valign: bottom
+  font: Linux Libertine

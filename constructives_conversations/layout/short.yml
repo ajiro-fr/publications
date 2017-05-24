@@ -16,11 +16,15 @@ safe:
   crop_corner_radius: 10
 
 text:
-  x: 125
-  width: 575
   align: center
   valign: middle
   font: Linux Libertine
+
+title_text_style:
+  extends: text
+  font_size: 40
+  font: Linux Libertine Bold
+  color: "ajiro_blue"
 
 background:
   x: 100
@@ -36,14 +40,11 @@ title_background:
   height: 140
 
 title_text:
-  extends: 'text'
+  extends: 'title_text_style'
   x: 240
   width: 485
   y: 110
   height: 140
-  font_size: 40
-  color: "ajiro_blue"
-  font: Linux Libertine Bold
 
 art:
   x: 110
@@ -61,11 +62,11 @@ description_background:
 
 description_text:
   extends: 'text'
+  x: 125
   y: 320
+  width: 575
   height: 670
   justify: false
-  valign: middle
-  align: center
   font_size: 30
 
 copyright:
@@ -83,16 +84,17 @@ first_card_background:
   height: 905
 
 first_card_text:
-  extends: title_text
+  extends: title_text_style
   x: 125
+  y: 110
   height: 195
   width: 575
 
 first_card_art:
-  extends: art
   x: 115
   y: 320
   height: 670
   width: 590
+  mask: 'ajiro_blue'
   align: center
   valign: middle

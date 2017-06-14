@@ -1,0 +1,20 @@
+# 3.5cm x 3.5cm
+
+face:
+  x: 0.25cm
+  y: 0.25cm
+  width: 3cm
+  height: 3cm
+
+copyright:
+  x: 1cm
+  y: 3.05cm
+  width: 1.5cm
+  height: 0.15cm
+  font_size: 12
+  align: center
+  valign: bottom
+  font: Linux Libertine
+  stroke_width: 0
+  fill_color: "#FFFFFFB0"
+  radius: 10

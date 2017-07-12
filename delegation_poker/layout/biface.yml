@@ -30,37 +30,32 @@ copyright:
   y: 1025
   width: 675
   height: 25
-  font_size: 14
+  font_size: 16
   align: center
   valign: bottom
   font: "Linux Biolinum O"
 
 circle:
-  radius: 50
+  radius: 80
   stroke_width: 0
 
 value:
   width: 100
   height: 100
   font: "Linux Biolinum O; bold"
-  font_size: 40
+  font_size: 90
   color: white
   align: center
   valign: middle
 
-icon:
-  width: 100
-  height: 100
-  align: center
-  valign: middle
 
 title:
-  width: 325
-  height: 100
-  align: center
+  width: 450
+  height: 160
+  align: left
   valign: middle
   font: "Linux Biolinum O; bold"
-  font_size: 30
+  font_size: 36
 
 text:
   width: 575
@@ -72,23 +67,26 @@ text:
 
 topleft_circle:
   extends: circle
-  x: 175
-  y: 175
+  x: 200
+  y: 200
 
 topleft_value:
   extends: value
-  x: 125
-  y: 125
+  x: 150
+  y: 150
 
 manager_icon:
-  extends: icon
-  x: 600
-  y: 125
+  x: 215
+  y: 150
+  width: 400
+  height: 400
+  align: center
+  valign: middle
 
 manager_title:
   extends: title
-  x: 250
-  y: 125
+  x: 325
+  y: 120
 
 manager_text:
   extends: text
@@ -105,25 +103,28 @@ middle_line:
 
 bottomright_circle:
   extends: circle
-  x: 650
-  y: 950
+  x: 625
+  y: 925
 
 bottomright_value:
   extends: value
-  x: 700
-  y: 1000
+  x: 675
+  y: 975
   angle: 3.14
 
 team_icon:
-  extends: icon
-  x: 125
-  y: 900
+  x: 230
+  y: 600
   flip_horizontal: true
+  width: 360
+  height: 360
+  align: center
+  valign: middle
 
 team_title:
   extends: title
-  x: 575
-  y: 1000
+  x: 500
+  y: 1005
   angle: 3.14
 
 team_text:
@@ -134,20 +135,21 @@ team_text:
 
 
 label:
-  width: 100
+  width: 425
   height: 25
   font: "Linux Biolinum O"
-  font_size: 20
+  font_size: 48
   align: center
   valign: middle
+  color: white
 
 manager_label:
   extends: label
-  x: 600
-  y: 225
+  x: 200
+  y: 460
 
 team_label:
   extends: label
-  x: 225
-  y: 900
+  x: 625
+  y: 670
   angle: 3.14

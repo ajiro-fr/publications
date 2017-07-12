@@ -1,6 +1,6 @@
 require 'squib'
 
-copywright = "CC~BY-SA~3.0~FR Ajiro.fr, version: v1"
+copywright = "CC~BY-SA~3.0~FR Ajiro.fr, version: v1.1"
 
 def cutmark(top, left, right, bottom, size)
   line x1: left, y1: top, x2: left+size, y2: top, stroke_width: 1, cap: :round
@@ -28,21 +28,21 @@ Dir["data/*.yml"].each do |data|
     rect layout: 'inside'
 
     # Manager
+    svg file: "manager.svg", layout: 'manager_icon', mask: values.map { |e| "#ddd"}
     circle layout: 'topleft_circle', fill_color: values.map { |e| e["color"]}
     text str: values.map {|i| i['number'] }, layout: 'topleft_value'
     text str: 'manager', layout: 'manager_label'
     text str: values.map {|i| i['manager_title'] }, layout: 'manager_title'
-    svg file: "manager.svg", layout: 'manager_icon', mask: values.map { |e| e["color"]}
     text str: values.map {|i| i['manager_text'] }, layout: 'manager_text'
 
     line layout: 'middle_line', stroke_color: values.map { |e| e["color"]}
 
     # Team
+    svg file: "team.svg", layout: 'team_icon', mask: values.map { |e| "#ddd" }
     circle layout: 'bottomright_circle', fill_color: values.map { |e| e["color"]}
     text str: values.map {|i| i['number'] }, layout: 'bottomright_value'
     text str: 'team', layout: 'team_label'
     text str: values.map {|i| i['team_title'] }, layout: 'team_title'
-    svg file: "team.svg", layout: 'team_icon', mask: values.map { |e| e["color"]}
     text str: values.map {|i| i['team_text'] }, layout: 'team_text'
 
     #grid width: 25,  height: 25,  stroke_color: '#659ae9', stroke_width: 1.5

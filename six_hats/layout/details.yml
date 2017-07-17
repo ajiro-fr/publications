@@ -41,7 +41,7 @@ title:
   height: 140
   align: center
   valign: middle
-  font_size: 40
+  font_size: 50
   font: Linux Libertine Bold
 
 hat-icon:
@@ -72,7 +72,7 @@ intent:
   justify: false
   valign: top
   align: center
-  font_size: 25
+  font_size: 28
   font: Linux Libertine Italic
 
 subtitle:
@@ -82,7 +82,7 @@ subtitle:
   justify: false
   valign: middle
   align: center
-  font_size: 30
+  font_size: 35
   font: Linux Libertine Bold
 
 details:
@@ -92,7 +92,7 @@ details:
   justify: false
   valign: top
   align: center
-  font_size: 24
+  font_size: 30
 
 persona:
   extends: 'text-base'
@@ -101,7 +101,7 @@ persona:
   justify: false
   valign: top
   align: center
-  font_size: 24
+  font_size: 26
 
 question-title:
   extends: 'text-base'
@@ -110,7 +110,7 @@ question-title:
   justify: false
   valign: middle
   align: center
-  font_size: 25
+  font_size: 30
 
 questions:
   extends: 'text-base'
@@ -119,14 +119,14 @@ questions:
   justify: false
   valign: top
   align: left
-  font_size: 22
+  font_size: 24
 
 copyright:
   x: 75
   y: 1020
   width: 675
   height: 25
-  font_size: 14
+  font_size: 16
   align: center
   valign: bottom
   font: Linux Libertine

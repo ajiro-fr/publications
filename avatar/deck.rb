@@ -22,8 +22,8 @@ Dir["faces/*"].each do |data|
   Squib::Deck.new(cards: faces.size, layout: 'layout.yml', width: '3.5cm', height: '3.5cm', dpi: 300) do
     svg file: faces, layout: 'face'
 
-    rect layout: 'copyright'
-    text str: Copywright, layout: 'copyright'
+    #rect layout: 'copyright'
+    #text str: Copywright, layout: 'copyright'
 
     save_home_made "avatar-#{style}.pdf"
   end

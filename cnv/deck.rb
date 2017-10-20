@@ -30,7 +30,7 @@ Dir["data/*.yml"].each do |data|
     rect layout: 'inside'
 
 
-    text str: values.map { |e| e["name"]}, layout: 'description_text'
+    text str: values.map { |e| e["name"]}, layout: 'text'
 
     text str: copywright, layout: 'copyright'
     cutmark 40, 40, 785, 1085, 10

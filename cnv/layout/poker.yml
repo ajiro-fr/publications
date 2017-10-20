@@ -25,7 +25,7 @@ inside:
   stroke_color: "white"
   fill_color: "white"
 
-description_text:
+text:
   x: 125
   y: 640
   width: 575

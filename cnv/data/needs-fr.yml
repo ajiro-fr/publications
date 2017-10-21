@@ -1,5 +1,3 @@
-# Besoins
-
 - name: "Besoin\nd'abri"
 - name: "Besoin\nd'acceptation"
 - name: "Besoin\nd'accomplissement"
@@ -15,6 +13,7 @@
 - name: "Besoin\nd'attention"
 - name: "Besoin\nd'authenticité"
 - name: "Besoin\nd'autonomie"
+- name: "Besoin\nd'avoir de l’importance"
 - name: "Besoin\nd'eau"
 - name: "Besoin\nd'échange"
 - name: "Besoin\nd'écoute"
@@ -51,8 +50,8 @@
 - name: "Besoin\nde calme"
 - name: "Besoin\nde célébration"
 - name: "Besoin\nde centrage"
-- name: "Besoin\nde chaleur"
 - name: "Besoin\nde chaleur humaine"
+- name: "Besoin\nde chaleur"
 - name: "Besoin\nde changement"
 - name: "Besoin\nde choix"
 - name: "Besoin\nde clarté"
@@ -62,15 +61,15 @@
 - name: "Besoin\nde compétence"
 - name: "Besoin\nde compréhension"
 - name: "Besoin\nde comprendre"
-- name: "Besoin\nde confiance"
 - name: "Besoin\nde confiance en soi"
+- name: "Besoin\nde confiance"
 - name: "Besoin\nde confort"
 - name: "Besoin\nde connexion"
 - name: "Besoin\nde conscience"
 - name: "Besoin\nde considération"
-- name: "Besoin\nde contact"
 - name: "Besoin\nde contact avec la nature"
 - name: "Besoin\nde contact physique"
+- name: "Besoin\nde contact"
 - name: "Besoin\nde contribuer"
 - name: "Besoin\nde contribution"
 - name: "Besoin\nde coopération"
@@ -108,8 +107,8 @@
 - name: "Besoin\nde reconnaissance"
 - name: "Besoin\nde réflexion"
 - name: "Besoin\nde repos"
-- name: "Besoin\nde respect"
 - name: "Besoin\nde respect de soi-même"
+- name: "Besoin\nde respect"
 - name: "Besoin\nde rêver"
 - name: "Besoin\nde rêves"
 - name: "Besoin\nde rigueur"
@@ -117,10 +116,10 @@
 - name: "Besoin\nde sagesse"
 - name: "Besoin\nde santé"
 - name: "Besoin\nde se préserver"
-- name: "Besoin\nde sécurité"
 - name: "Besoin\nde sécurité émotive"
-- name: "Besoin\nde sens"
+- name: "Besoin\nde sécurité"
 - name: "Besoin\nde sens de sa propre valeur"
+- name: "Besoin\nde sens"
 - name: "Besoin\nde simplicité"
 - name: "Besoin\nde sincérité"
 - name: "Besoin\nde soins"
@@ -136,18 +135,9 @@
 - name: "Besoin\nde vision"
 - name: "Besoin\nde vivacité"
 - name: "Besoin\nde volonté"
-
-
-
-
-
-# Emotions
-
 - name: "Colère"
 - name: "Joie"
 - name: "Peur"
-
-- name: triste
 - name: angoissé / angoisée
 - name: chagriné / chagrinée
 - name: découragé / découragée
@@ -162,5 +152,7 @@
 - name: Impuissant / Impuissante
 - name: Misérable
 - name: Navré / Navrée
+- name: triste
 - name: Troublé / Troublée
 - name: Vulnérable
+# Emotions

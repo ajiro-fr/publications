@@ -1,0 +1,270 @@
+SENTIMENTS
+
+triste
+angoissé / angoisée
+chagriné / chagrinée
+découragé / découragée
+déçu / déçue
+déprimé / déprimée
+désespéré / désespérée
+désolé / désolée
+engourdi / engourdie
+fragile
+gêné / gênée
+honteux / honteuse
+impuissant / impuissante
+misérable
+navré / navrée
+troublé / troublée
+vulnérable
+
+
+CONTENT-E J
+Confiant / Confiante
+ÉmuE
+EncouragéE
+ExaltéE
+ExcitéE
+FierÈRE
+InspiréE
+JoyeuxSE
+Optimiste
+PassionnéE
+RaviE
+ReconnaissantE
+SatisfaitE
+SoulagéE
+VibrantE
+
+
+FACHE-E L
+AgacéE
+AgitéE
+AmerÈRE
+ContrariéE
+DégoûtéE
+EmbêtéE
+EngourdiE
+ExaspéréE
+FroisséE
+FrustréE
+FurieuxSE
+HaineuxSE
+Hostile
+ImpatientE
+IrritéE
+JalouxSE
+OutragéE
+Pessimiste
+RancunierÈRE
+RenverséE
+TroubléE
+
+
+APEURE-E K
+AffoléE
+AlarméE
+AnxieuxSE
+BouleverséE
+ChoquéE
+Coupable*
+EffrayéE
+EngourdiE
+ÉpouvantéE
+HorrifiéE
+InquietÈTE
+MéfiantE
+NerveuxSE
+PaniquéE
+ProtecteurTRICE
+PrudentE
+SoucieuxSE
+TenduE
+TerrifiéE
+TourmentéE
+TracasséE
+
+
+FATIGUE-E K
+BrûléE
+ClaquéE
+DécentréE
+DémuniE
+DépasséE
+DistraitE
+ÉpuiséE
+ÉreintéE
+Fragile
+ImpuissantE
+IndifférentE
+IndisposéE
+LasSE
+Léthargique
+VidéE
+
+MELE-E K
+AbasourdiE
+AgitéE
+AhuriE
+BlesséE
+BouleverséE
+ConfonduE
+DéchiréE
+DéconcertéE
+DérangéE
+DéroutéE
+ÉbahiE
+ÉtonnéE
+FrustréE
+HébétéE
+HésitantE
+IncertainE
+Inconfortable
+IndécisE
+InquietÈTE
+IntriguéE
+Mal à l’aise
+MéfiantE
+PerduE
+Perplexe
+PrudentE
+Sceptique
+SurprisE
+TroubléE
+
+
+SEREIN-E J
+AbsorbéE
+AssuréE
+BienheureuxSE
+Calme
+CombléE
+ConfiantE
+Confortable
+ContentéE
+DécontractéE
+DétenduE
+ÉblouiE
+Formidable
+NourriE
+SatisfaitE
+VivantE
+
+
+AIMANT-E J
+AffectieuxSE
+AppréciantE
+AttendriE
+ChaleureuxSE
+CharméE
+CompatissantE
+ConfiantE
+ÉlectriséE
+ÉlogieuxSE
+ÉmuE
+EnchantéE
+ExcitéE
+NourriE
+SatisfaitE
+Sensible
+StimuléE
+VivantE
+
+ENJOUE-E J
+AventureuxSE
+Avide
+CaptivéE
+CréatifVE
+CurieuxSE
+Énergique
+Espiègle
+ExcitéE
+ExubérantE
+FascinéE
+InspiréE
+IntéresséE
+IntriguéE
+Libre
+PassionnéE
+RafraîchiE
+StimuléE
+VifVE
+VivifiéE
+ZéléE
+
+
+
+
+
+
+
+
+
+
+
+Sentiments :
+
+Je me sens :
+en sécurité
+dans le plaisir
+calme
+serein
+motivé
+fier
+enthousiaste
+heureux
+vivant
+excité
+protégé
+déterminé
+fort
+joyeux
+bienveillant
+seul
+stupide
+pas respecté
+jaloux
+différent
+fragile
+méchant
+déstabilisé
+perdu
+désespéré
+angoissé
+soulagé
+passionné
+en insécurité
+anxieux
+nerveux
+intimidé
+coupable
+détaché
+méfiant
+honteux
+blessé
+aimé
+abandonné
+mou
+pas aimé
+
+j'ai peur
+j'ai la haine
+je ne sais pas comment je me sens
+je ne veux pas dire
+
+je suis :
+déçu
+vexé
+terrorisé
+amoureux
+frustré
+dégouté
+inquiet
+en colère
+triste
+surpris
+indécis
+curieux
+impatient
+épuisé
+attentif

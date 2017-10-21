@@ -23,7 +23,8 @@ inside:
   height: 925
   radius: 40
   stroke_color: "white"
-  fill_color: "white"
+  fill_color: "#ffffff80"
+  crop_corner_radius: 50
 
 text:
   x: 125

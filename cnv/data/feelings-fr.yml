@@ -1,23 +1,179 @@
-# Emotions
-
-- name: "Colère"
-- name: "Joie"
-- name: "Peur"
-
+- name: abasourdi·e
+- name: absorbé·e
+- name: affectieux·se
+- name: affolé·e
+- name: agacé·e
+- name: agité·e
+- name: ahuri·e
+- name: aimant·e
+- name: aimé·e
+- name: alarmé·e
+- name: amer·ère
+- name: amoureux·se
+- name: angoissé·e
+- name: anxieux·se
+- name: apeuré·e
+- name: appréciant·e
+- name: assuré·e
+- name: attendri·e
+- name: attentif·ve
+- name: aventureux·se
+- name: avide
+- name: bienheureux·se
+- name: bienveillant·e
+- name: blessé·e
+- name: bouleversé·e
+- name: brûlé·e
+- name: calme
+- name: captivé·e
+- name: chagriné·e
+- name: chaleureux·se
+- name: charmé·e
+- name: choqué·e
+- name: claqué·e
+- name: comblé·e
+- name: compatissant·e
+- name: confiant·e
+- name: confondu·e
+- name: confortable
+- name: content·e
+- name: contenté·e
+- name: contrarié·e
+- name: coupable
+- name: créatif·ve
+- name: curieux·se
+- name: dans le plaisir
+- name: décentré·e
+- name: déchiré·e
+- name: déconcerté·e
+- name: décontracté·e
+- name: découragé·e
+- name: déçu·e
+- name: dégoûté·e
+- name: démuni·e
+- name: dépassé·e
+- name: déprimé·e
+- name: dérangé·e
+- name: dérouté·e
+- name: désespéré·e
+- name: désolé·e
+- name: déstabilisé·e
+- name: détaché·e
+- name: détendu·e
+- name: déterminé·e
+- name: différent·e
+- name: distrait·e
+- name: ébahi·e
+- name: ébloui·e
+- name: effrayé·e
+- name: électrisé·e
+- name: élogieux·se
+- name: embêté·e
+- name: ému·e
+- name: en colère
+- name: en insécurité
+- name: en sécurité
+- name: enchanté·e
+- name: encouragé·e
+- name: énergique
+- name: engourdi·e
+- name: enjoué·e
+- name: enthousiaste
+- name: épouvanté·e
+- name: épuisé·e
+- name: éreinté·e
+- name: espiègle
+- name: étonné·e
+- name: exalté·e
+- name: exaspéré·e
+- name: excité·e
+- name: exubérant·e
+- name: faché·e
+- name: fasciné·e
+- name: fatigué·e
+- name: fier·ère
+- name: formidable
+- name: fort·e
+- name: fragile
+- name: frustré·e
+- name: furieux·se
+- name: gêné·e
+- name: haineux·se
+- name: hébété·e
+- name: hésitant·e
+- name: heureux·se
+- name: honteux·se
+- name: horrifié·e
+- name: hostile
+- name: impatient·e
+- name: impuissant·e
+- name: incertain·e
+- name: inconfortable
+- name: indécis·e
+- name: indifférent·e
+- name: indisposé·e
+- name: inquiet·ète
+- name: inspiré·e
+- name: intéressé·e
+- name: intrigué·e
+- name: irrité·e
+- name: j'ai la haine
+- name: j'ai peur
+- name: jaloux·se
+- name: je ne sais pas comment je me sens
+- name: je ne veux pas dire
+- name: joyeux·se
+- name: las·se
+- name: léthargique
+- name: libre
+- name: mal à l’aise
+- name: méchant·e
+- name: méfiant·e
+- name: misérable
+- name: motivé·e
+- name: mou·lle
+- name: navré·e
+- name: nerveux·se
+- name: nourri·e
+- name: optimiste
+- name: outragé·e
+- name: paniqué·e
+- name: pas aimé·e
+- name: pas respecté
+- name: passionné·e
+- name: perdu·e
+- name: perplexe
+- name: pessimiste
+- name: protecteur·trice
+- name: protégé·e
+- name: prudent·e
+- name: rafraîchi·e
+- name: rancunier·ère
+- name: ravi·e
+- name: reconnaissant·e
+- name: renversé·e
+- name: satisfait·e
+- name: sceptique
+- name: sensible
+- name: serein·e
+- name: seul·e
+- name: soucieux·se
+- name: soulagé·e
+- name: stimulé·e
+- name: stupide
+- name: surpris·e
+- name: tendu·e
+- name: terrifié·e
+- name: terrorisé·e
+- name: tourmenté·e
+- name: tracassé·e
 - name: triste
-- name: angoissé / angoisée
-- name: chagriné / chagrinée
-- name: découragé / découragée
-- name: déçu / déçue
-- name: déprimé / déprimée
-- name: désespéré / désespérée
-- name: Désolé / Désolée
-- name: Engourdi / Engourdie
-- name: Fragile
-- name: Gêné / Gênée
-- name: Honteux / Honteuse
-- name: Impuissant / Impuissante
-- name: Misérable
-- name: Navré / Navrée
-- name: Troublé / Troublée
-- name: Vulnérable
+- name: troublé·e
+- name: vexé·e
+- name: vibrant·e
+- name: vidé·e
+- name: vif·ve
+- name: vivant·e
+- name: vivifié·e
+- name: vulnérable
+- name: zélé·e

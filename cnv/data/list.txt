@@ -1,270 +1,228 @@
-SENTIMENTS
-
-triste
-angoissé / angoisée
-chagriné / chagrinée
-découragé / découragée
-déçu / déçue
-déprimé / déprimée
-désespéré / désespérée
-désolé / désolée
-engourdi / engourdie
-fragile
-gêné / gênée
-honteux / honteuse
-impuissant / impuissante
-misérable
-navré / navrée
-troublé / troublée
-vulnérable
-
-
-CONTENT-E J
-Confiant / Confiante
-ÉmuE
-EncouragéE
-ExaltéE
-ExcitéE
-FierÈRE
-InspiréE
-JoyeuxSE
-Optimiste
-PassionnéE
-RaviE
-ReconnaissantE
-SatisfaitE
-SoulagéE
-VibrantE
-
-
-FACHE-E L
-AgacéE
-AgitéE
-AmerÈRE
-ContrariéE
-DégoûtéE
-EmbêtéE
-EngourdiE
-ExaspéréE
-FroisséE
-FrustréE
-FurieuxSE
-HaineuxSE
-Hostile
-ImpatientE
-IrritéE
-JalouxSE
-OutragéE
-Pessimiste
-RancunierÈRE
-RenverséE
-TroubléE
-
-
-APEURE-E K
-AffoléE
-AlarméE
-AnxieuxSE
-BouleverséE
-ChoquéE
-Coupable*
-EffrayéE
-EngourdiE
-ÉpouvantéE
-HorrifiéE
-InquietÈTE
-MéfiantE
-NerveuxSE
-PaniquéE
-ProtecteurTRICE
-PrudentE
-SoucieuxSE
-TenduE
-TerrifiéE
-TourmentéE
-TracasséE
-
-
-FATIGUE-E K
-BrûléE
-ClaquéE
-DécentréE
-DémuniE
-DépasséE
-DistraitE
-ÉpuiséE
-ÉreintéE
-Fragile
-ImpuissantE
-IndifférentE
-IndisposéE
-LasSE
-Léthargique
-VidéE
-
-MELE-E K
-AbasourdiE
-AgitéE
-AhuriE
-BlesséE
-BouleverséE
-ConfonduE
-DéchiréE
-DéconcertéE
-DérangéE
-DéroutéE
-ÉbahiE
-ÉtonnéE
-FrustréE
-HébétéE
-HésitantE
-IncertainE
-Inconfortable
-IndécisE
-InquietÈTE
-IntriguéE
-Mal à l’aise
-MéfiantE
-PerduE
-Perplexe
-PrudentE
-Sceptique
-SurprisE
-TroubléE
-
-
-SEREIN-E J
-AbsorbéE
-AssuréE
-BienheureuxSE
-Calme
-CombléE
-ConfiantE
-Confortable
-ContentéE
-DécontractéE
-DétenduE
-ÉblouiE
-Formidable
-NourriE
-SatisfaitE
-VivantE
-
-
-AIMANT-E J
-AffectieuxSE
-AppréciantE
-AttendriE
-ChaleureuxSE
-CharméE
-CompatissantE
-ConfiantE
-ÉlectriséE
-ÉlogieuxSE
-ÉmuE
-EnchantéE
-ExcitéE
-NourriE
-SatisfaitE
-Sensible
-StimuléE
-VivantE
-
-ENJOUE-E J
-AventureuxSE
-Avide
-CaptivéE
-CréatifVE
-CurieuxSE
-Énergique
-Espiègle
-ExcitéE
-ExubérantE
-FascinéE
-InspiréE
-IntéresséE
-IntriguéE
-Libre
-PassionnéE
-RafraîchiE
-StimuléE
-VifVE
-VivifiéE
-ZéléE
-
-
-
-
-
-
-
-
-
-
-
-Sentiments :
-
-Je me sens :
-en sécurité
-dans le plaisir
-calme
-serein
-motivé
-fier
-enthousiaste
-heureux
-vivant
-excité
-protégé
-déterminé
-fort
-joyeux
-bienveillant
-seul
-stupide
-pas respecté
-jaloux
-différent
-fragile
-méchant
-déstabilisé
-perdu
-désespéré
-angoissé
-soulagé
-passionné
-en insécurité
-anxieux
-nerveux
-intimidé
-coupable
-détaché
-méfiant
-honteux
-blessé
-aimé
-abandonné
-mou
-pas aimé
-
-j'ai peur
-j'ai la haine
-je ne sais pas comment je me sens
-je ne veux pas dire
-
-je suis :
-déçu
-vexé
-terrorisé
-amoureux
-frustré
-dégouté
-inquiet
-en colère
-triste
-surpris
-indécis
-curieux
-impatient
-épuisé
-attentif
+- name: abandonnée--
+- name: abasourdi·e
+- name: absorbé·e
+- name: abusée--
+- name: affectieux·se
+- name: affolé·e
+- name: agacé·e
+- name: agité·e
+- name: ahuri·e
+- name: aimant·e
+- name: aimé·e
+- name: alarmé·e
+- name: amer·ère
+- name: amoureux·se
+- name: angoissé·e
+- name: anxieux·se
+- name: apeuré·e
+- name: appréciant·e
+- name: assuré·e
+- name: attaquée--
+- name: attendri·e
+- name: attentif·ve
+- name: aventureux·se
+- name: avide
+- name: bienheureux·se
+- name: bienveillant·e
+- name: blâmée--
+- name: blessé·e
+- name: bouleversé·e
+- name: bousculée--
+- name: brûlé·e
+- name: calme
+- name: captivé·e
+- name: chagriné·e
+- name: chaleureux·se
+- name: charmé·e
+- name: choqué·e
+- name: claqué·e
+- name: coincée--
+- name: comblé·e
+- name: compatissant·e
+- name: confiant·e
+- name: confondu·e
+- name: confortable
+- name: content·e
+- name: contenté·e
+- name: contrainte--
+- name: contrarié·e
+- name: coupable
+- name: créatif·ve
+- name: critiquée--
+- name: curieux·se
+- name: dans le plaisir
+- name: décentré·e
+- name: déchiré·e
+- name: déconcerté·e
+- name: décontracté·e
+- name: découragé·e
+- name: déçu·e
+- name: dégoûté·e
+- name: délaissée--
+- name: démuni·e
+- name: dépassé·e
+- name: déprimé·e
+- name: dérangé·e
+- name: dérouté·e
+- name: désespéré·e
+- name: désolé·e
+- name: déstabilisé·e
+- name: détaché·e
+- name: détendu·e
+- name: déterminé·e
+- name: dévalorisée--
+- name: différent·e
+- name: distrait·e
+- name: ébahi·e
+- name: ébloui·e
+- name: effrayé·e
+- name: électrisé·e
+- name: élogieux·se
+- name: embêté·e
+- name: emprisonnée--
+- name: ému·e
+- name: en colère
+- name: en insécurité
+- name: en sécurité
+- name: enchanté·e
+- name: encouragé·e
+- name: énergique
+- name: engourdi·e
+- name: enjoué·e
+- name: enthousiaste
+- name: envahie--
+- name: épouvanté·e
+- name: épuisé·e
+- name: éreinté·e
+- name: espiègle
+- name: étonné·e
+- name: étouffée--
+- name: exalté·e
+- name: exaspéré·e
+- name: excité·e
+- name: exploitée--
+- name: exubérant·e
+- name: faché·e
+- name: fasciné·e
+- name: fatigué·e
+- name: fier·ère
+- name: formidable
+- name: fort·e
+- name: fragile
+- name: frustré·e
+- name: furieux·se
+- name: gêné·e
+- name: haineux·se
+- name: harcelée--
+- name: hébété·e
+- name: hésitant·e
+- name: heureux·se
+- name: honteux·se
+- name: horrifié·e
+- name: hostile
+- name: humiliée--
+- name: ignorée--
+- name: impatient·e
+- name: impuissant·e
+- name: inadéquate--
+- name: incertain·e
+- name: incomprise--
+- name: inconfortable
+- name: indécis·e
+- name: indifférent·e
+- name: indisposé·e
+- name: inintéressante--
+- name: inquiet·ète
+- name: inspiré·e
+- name: insultée--
+- name: intéressé·e
+- name: intimidé·e
+- name: intimidée--
+- name: intrigué·e
+- name: invalidée--
+- name: invisible--
+- name: irrité·e
+- name: j'ai la haine
+- name: j'ai peur
+- name: jaloux·se
+- name: je ne sais pas comment je me sens
+- name: je ne veux pas dire
+- name: joyeux·se
+- name: las·se
+- name: léthargique
+- name: libre
+- name: mal à l’aise
+- name: maltraitée--
+- name: manipulée--
+- name: maternée--
+- name: méchant·e
+- name: méfiant·e
+- name: menacée--
+- name: méprisée--
+- name: misérable
+- name: motivé·e
+- name: mou·lle
+- name: navré·e
+- name: négligée--
+- name: nerveux·se
+- name: nourri·e
+- name: obligée--
+- name: optimiste
+- name: outragé·e
+- name: paniqué·e
+- name: pas acceptée--
+- name: pas aimé·e
+- name: pas appréciée--
+- name: pas approuvée--
+- name: pas écoutée--
+- name: pas entendue--
+- name: pas respecté
+- name: passionné·e
+- name: perdu·e
+- name: perplexe
+- name: persécutée--
+- name: pessimiste
+- name: piégée--
+- name: piétinée--
+- name: poussée--
+- name: protecteur·trice
+- name: protégé·e
+- name: provoquée--
+- name: prudent·e
+- name: rabaissée--
+- name: rafraîchi·e
+- name: rancunier·ère
+- name: ravi·e
+- name: reconnaissant·e
+- name: rejetée--
+- name: renversé·e
+- name: ridiculisée--
+- name: satisfait·e
+- name: sceptique
+- name: sensible
+- name: serein·e
+- name: seul·e
+- name: soucieux·se
+- name: soulagé·e
+- name: stimulé·e
+- name: stupide
+- name: surchargée--
+- name: surpris·e
+- name: tendu·e
+- name: terrifié·e
+- name: terrorisé·e
+- name: tourmenté·e
+- name: tracassé·e
+- name: trahie--
+- name: triste
+- name: trompée--
+- name: troublé·e
+- name: utilisée--
+- name: vexé·e
+- name: vibrant·e
+- name: vidé·e
+- name: vif·ve
+- name: vivant·e
+- name: vivifié·e
+- name: vulnérable
+- name: zélé·e

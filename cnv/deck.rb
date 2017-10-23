@@ -27,7 +27,7 @@ Dir["data/*.yml"].each do |data|
     background color: 'white'
 
     rect layout: 'safe', fill_color: 'lightgray'
-    png file: 'images/feelings.png', layout: 'inside'
+    #png file: 'images/feelings.png', layout: 'inside'
     rect layout: 'inside'
 
 

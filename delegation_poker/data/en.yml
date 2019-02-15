@@ -1,0 +1,48 @@
+- number: 1
+  color: "#BF0000"
+  manager_title: "Tell"
+  manager_text: "I decide and tell my decision to the team."
+  team_title: "Follow"
+  team_text: "We are informed of our manager's decision."
+
+- number: 2
+  color: "#BF5F00"
+  manager_title: "Sell"
+  manager_text: "I decide and try to sell my decision to the team."
+  team_title: "Discuss"
+  team_text: "Our manager decides, and then try to convince us of his decision."
+
+- number: 3
+  color: "#BFBF00"
+  manager_title: "Consult"
+  manager_text: "I consult the team before taking my decision."
+  team_title: "Advise"
+  team_text: "Our manager consult us before taking his decision."
+
+- number: 4
+  color: "#00BF00"
+  manager_title: "Agree"
+  manager_text: "We take the decision together with the team."
+  team_title: "Agree"
+  team_text: "We take the decision together with our manager."
+
+- number: 5
+  color: "#0000BF"
+  manager_title: "Advise"
+  manager_text: "I give advice to the team and let them decide."
+  team_title: "Consult"
+  team_text: "We consult our manager and then take our decision, even if it doesn't follow our manager's point of view."
+
+- number: 6
+  color: "#36005E"
+  manager_title: "Delegate with information"
+  manager_text: "The team takes its decision and informs me."
+  team_title: "Decide and inform"
+  team_text: "We are autonomous for this decision and we inform our manager after taking it."
+
+- number: 7
+  color: "#6F009E"
+  manager_title: "Delegate"
+  manager_text: "The team takes its decision, without informing me."
+  team_title: "Decide"
+  team_text: "We are autonomous for this decision, our manager doesn't feel the necessity to be informed."
